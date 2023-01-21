@@ -35,7 +35,7 @@ Install tmux [here](https://github.com/tmux/tmux/wiki/Installing).
 | `control+h/j/k/l` | Move across panes |
 | `<prefix>+h/j/k/l` | Resize panes |
 | `<prefix>+?` | Help with commands |
-| `<prefix>+|` | Horizontal split |
+| `<prefix>+\|` | Horizontal split |
 | `<prefix>+-` | Vertical split |
  
 # Neovim
