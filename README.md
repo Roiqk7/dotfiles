@@ -27,16 +27,16 @@ Install tmux [here](https://github.com/tmux/tmux/wiki/Installing).
 
 | Shortcut | Description |
 |---|---|
-| new -s <name> | Create new session with name |
-| attach -t <name> | Come back to session |
-| kill-session | Delete current session |
-| kill-server | Delete all sessions |
-| <prefix>+I | Reload tmux |
-| control+h/j/k/l | Move across panes |
-| <prefix>+h/j/k/l | Resize panes |
-| <prefix>+? | Help with commands |
-| <prefix>+| | Horizontal split |
-| <prefix>+- | Vertical split |
+| `new -s <name>` | Create new session with name |
+| `attach -t <name>` | Come back to session |
+| `kill-session` | Delete current session |
+| `kill-server` | Delete all sessions |
+| `<prefix>+I` | Reload tmux |
+| `control+h/j/k/l` | Move across panes |
+| `<prefix>+h/j/k/l` | Resize panes |
+| `<prefix>+?` | Help with commands |
+| `<prefix>+|` | Horizontal split |
+| `<prefix>+-` | Vertical split |
  
 # Neovim
 ## Steps:
