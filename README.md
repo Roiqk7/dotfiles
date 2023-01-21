@@ -9,6 +9,12 @@ This cofiguration is aimed for C++ development in Neovim on MacOS. That being sa
 * Neovim
 
 # Prerequisites
+* [iTerm2](https://iterm2.com)
+* [z-shell](http://zsh.sourceforge.net)
+* [oh My ZSH!](https://ohmyz.sh)
+* [Powerlevel10k](https://github.com/romkatv/powerlevel10k)
+* [NerdFonts](https://github.com/ryanoasis/nerd-fonts#--)
+
 Follow [this](https://gist.github.com/GLMeece/4b51037daa0d6b83256f80b560246f38) quick tutorial to get you everything you need to get full experience.
 
 # Tmux 
