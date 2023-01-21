@@ -5,7 +5,7 @@ This cofiguration is aimed for C++ development on MacOS. That being said the pur
 See [this doc](https://github.com/jdhao/nvim-config/blob/master/docs/README.md) for information on how to install and setup nvim on your platform. 
 
 # Key binding
-'<leader>' represents space key.
+`<leader>` represents space key.
 
 | Shortcut | Mode | Description |
 |---|---|---|
