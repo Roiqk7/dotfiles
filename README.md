@@ -9,3 +9,4 @@ See [this doc](https://github.com/jdhao/nvim-config/blob/master/docs/README.md) 
 
 | Shortcut | Mode | Description |
 |---|---|---|
+| `jk` | Insert | Enter normal mode
