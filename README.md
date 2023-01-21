@@ -1,5 +1,5 @@
 # Introduction
-This cofiguration is aimed for C++ development in Neovim on MacOS. That being said the purpose of this repository is to help you get started. You are free to change it to your liking and I designed it with that in mind.
+This cofiguration is aimed for C++ development in Neovim on MacOS. That being said the purpose of this repository is to help you get started. You are to change it to your liking and I designed it with that in mind.
 
 # TODO insert image here
 
