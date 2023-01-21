@@ -18,10 +18,10 @@ Follow [this](https://gist.github.com/GLMeece/4b51037daa0d6b83256f80b560246f38) 
 3. Open terminal and run `tmux source ~/.tmux.conf` to reload configuration file
 
 ## Instalation
-Install tmux [here](https://github.com/tmux/tmux/wiki/Installing)
+Install tmux [here](https://github.com/tmux/tmux/wiki/Installing).
 
 ## Key binding
-`prefix` represents control+a (must be pressed at the same time)
+`prefix` represents control+a (must be pressed at the same time).
 
 | Shortcut | Description |
 |---|---|
