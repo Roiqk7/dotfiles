@@ -23,7 +23,7 @@ Also if you want powerful zsh setup read [this](https://dev.to/abdfnx/oh-my-zsh-
 Install tmux [here](https://github.com/tmux/tmux/wiki/Installing).
 
 ## Key binding
-`<prefix>` represents `control+a` (must be pressed at the same time).
+`<prefix>` represents `control+a` (must be pressed at the same time). Note: `+` is not part of the command.
 
 | Shortcut | Description |
 |---|---|
@@ -37,6 +37,7 @@ Install tmux [here](https://github.com/tmux/tmux/wiki/Installing).
 | `<prefix>+?` | Help with commands |
 | `<prefix>+\|` | Horizontal split |
 | `<prefix>+-` | Vertical split |
+| `<prefix>+m` | Maximize/Minimize pane |
  
 # Neovim
 ## Steps:
