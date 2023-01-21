@@ -2,9 +2,9 @@
 This cofiguration is aimed for C++ development in Neovim on MacOS. That being said the purpose of this repository is to help you get started. You are free to change it to your liking and I designed it with that in mind.
 
 # Features
-*iTerm2
-*Tmux
-*Neovim
+* iTerm2
+* Tmux
+* Neovim
 
 # Prerequisites
 Follow [this](https://gist.github.com/GLMeece/4b51037daa0d6b83256f80b560246f38) quick tutorial to get you everything you need to get full experience.
