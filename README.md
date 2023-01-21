@@ -34,7 +34,7 @@ Install tmux [here](https://github.com/tmux/tmux/wiki/Installing).
 2. Place `nvim` folder into your `.config` directory.
 
 ## Installation
-See [this doc](https://github.com/jdhao/nvim-config/blob/master/docs/README.md) for information on how to install and setup nvim on your platform. 
+See [this](https://github.com/jdhao/nvim-config/blob/master/docs/README.md) for information on how to install and setup nvim on your platform. 
 
 ## Key binding
 `<leader>` represents space key.
