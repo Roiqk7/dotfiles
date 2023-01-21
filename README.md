@@ -6,4 +6,6 @@ See [this doc](https://github.com/jdhao/nvim-config/blob/master/docs/README.md) 
 
 # Key binding
 Leader is space key.
-|Shortcut|Mode|Description|
+
+| Shortcut | Mode | Description |
+|---|---|---|
