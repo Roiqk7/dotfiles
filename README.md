@@ -3,11 +3,6 @@ This cofiguration is aimed for C++ development in Neovim on MacOS. That being sa
 
 # TODO insert image here
 
-# Features
-* iTerm2
-* Tmux
-* Neovim
-
 # Prerequisites
 * [iTerm2](https://iterm2.com)
 * [z-shell](http://zsh.sourceforge.net)
