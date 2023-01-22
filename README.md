@@ -38,6 +38,13 @@ Install tmux [here](https://github.com/tmux/tmux/wiki/Installing).
 | `<prefix>+\|` | Horizontal split |
 | `<prefix>+-` | Vertical split |
 | `<prefix>+m` | Maximize/Minimize pane |
+
+## Commands
+Commands have `:` prefix.
+
+| Command | Description |
+|---|---|
+| LuaCacheProfile | See load times |
  
 # Neovim
 ## Steps:
