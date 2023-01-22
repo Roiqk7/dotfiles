@@ -1,0 +1,7 @@
+require("mapping.editor")
+require("mapping.lspconfig")
+require("mapping.lspsaga")
+require("mapping.spellcheck")
+require("mapping.tab_buffer")
+require("mapping.terminal")
+require("mapping.tree")
