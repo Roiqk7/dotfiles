@@ -61,6 +61,12 @@ See [this](https://github.com/jdhao/nvim-config/blob/master/docs/README.md) for 
 |---|---|---|
 | `jk` | Insert | Enter normal mode |
 | `<leader>su` | Normal | Return to Startup screen |
+| `<leader>ff` | Normal | Find file in current directory |
+| `<leader>fs` | Normal | Find string in current directory|
+| `<leader>rb` | Normal | Recent buffers in current session |
+| `<leader>of` | Normal | Old files |
+| `<leader>ps` | Normal | run :PackerSync command |
+| `<leader>tsu` | Normal | run :TSUpdate command |
 
 # More images
 
