@@ -59,7 +59,8 @@ See [this](https://github.com/jdhao/nvim-config/blob/master/docs/README.md) for 
 
 | Shortcut | Mode | Description |
 |---|---|---|
-| `jk` | Insert | Enter normal mode
+| `jk` | Insert | Enter normal mode |
+| `<leader>su` | Normal | Return to Startup screen |
 
 # More images
 
