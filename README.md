@@ -1,7 +1,7 @@
 # Introduction
 This cofiguration is aimed for C++ development in Neovim on MacOS. That being said the purpose of this repository is to help you get started. You are to change it to your liking and I designed it with that in mind.
 
-![Startup](https://github.com/[username]/[reponame]/blob/[branch]/Nvim-su.png?raw=true)
+![Startup](https://github.com/[username]/[reponame]/tree/[branch]/assets/Nvim-su.png?raw=true)
 
 # Prerequisites
 * [iTerm2](https://iterm2.com)
