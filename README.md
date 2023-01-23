@@ -27,9 +27,9 @@ You write these commands in the console and before your command you type `tmux`.
 
 | Commands | Description |
 |---|---|
-| `ls` | List of sessions |
 | `new -s <name>` | Create new session with name |
 | `attach -t <name>` | Come back to session |
+| `ls` | List of sessions |
 | `dettach` | Leave session |
 | `kill-session` | Delete current session |
 | `kill-server` | Delete all sessions |
