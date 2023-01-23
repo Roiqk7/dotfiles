@@ -23,14 +23,14 @@ Also if you want powerful zsh setup read [this](https://dev.to/abdfnx/oh-my-zsh-
 Install tmux [here](https://github.com/tmux/tmux/wiki/Installing).
 
 ## Commands
-You write these commands in the console and before yoour command you type `tmux`.
+You write these commands in the console and before your command you type `tmux`.
 
 | Commands | Description |
 |---|---|
+| `ls` | List of sessions |
 | `new -s <name>` | Create new session with name |
 | `attach -t <name>` | Come back to session |
 | `dettach` | Leave session |
-| `ls` | List of sessions |
 | `kill-session` | Delete current session |
 | `kill-server` | Delete all sessions |
 
