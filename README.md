@@ -35,7 +35,7 @@ You write these commands in the console and before your command you type `tmux`.
 | `kill-server` | Delete all sessions |
 
 ## Key binding
-`<prefix>` represents `control+a` (must be pressed at the same time).
+`<prefix>` represents `<control>a` (must be pressed at the same time).
 
 | Shortcut | Description |
 |---|---|
