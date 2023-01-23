@@ -22,22 +22,30 @@ Also if you want powerful zsh setup read [this](https://dev.to/abdfnx/oh-my-zsh-
 ## Instalation
 Install tmux [here](https://github.com/tmux/tmux/wiki/Installing).
 
-## Key binding
-`<prefix>` represents `control+a` (must be pressed at the same time). Note: `+` is not part of the command.
+## Commands
+You write these commands in the console and before yoour command you type `tmux`.
 
-| Shortcut | Description |
+| Commands | Description |
 |---|---|
 | `new -s <name>` | Create new session with name |
 | `attach -t <name>` | Come back to session |
+| `dettach` | Leave session |
+| `ls` | List of sessions |
 | `kill-session` | Delete current session |
 | `kill-server` | Delete all sessions |
-| `<prefix>+I` | Reload tmux |
-| `control+h/j/k/l` | Move across panes |
-| `<prefix>+h/j/k/l` | Resize panes |
-| `<prefix>+?` | Help with commands |
-| `<prefix>+\|` | Horizontal split |
-| `<prefix>+-` | Vertical split |
-| `<prefix>+m` | Maximize/Minimize pane |
+
+## Key binding
+`<prefix>` represents `control+a` (must be pressed at the same time).
+
+| Shortcut | Description |
+|---|---|
+| `<prefix>I` | Reload tmux |
+| `<control>h/j/k/l` | Move across panes |
+| `<prefix>h/j/k/l` | Resize panes |
+| `<prefix>?` | Help with commands |
+| `<prefix>\|` | Horizontal split |
+| `<prefix>-` | Vertical split |
+| `<prefix>m` | Maximize/Minimize pane |
  
 # Neovim
 ## Steps:
