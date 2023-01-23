@@ -38,13 +38,6 @@ Install tmux [here](https://github.com/tmux/tmux/wiki/Installing).
 | `<prefix>+\|` | Horizontal split |
 | `<prefix>+-` | Vertical split |
 | `<prefix>+m` | Maximize/Minimize pane |
-
-## Commands
-Commands have `:` prefix.
-
-| Command | Description |
-|---|---|
-| LuaCacheProfile | See load times |
  
 # Neovim
 ## Steps:
@@ -65,8 +58,9 @@ See [this](https://github.com/jdhao/nvim-config/blob/master/docs/README.md) for 
 | `<leader>fs` | Normal | Find string in current directory|
 | `<leader>rb` | Normal | Recent buffers in current session |
 | `<leader>of` | Normal | Old files |
-| `<leader>ps` | Normal | run :PackerSync command |
-| `<leader>tsu` | Normal | run :TSUpdate command |
+| `<leader>ps` | Normal | Run :PackerSync command |
+| `<leader>tsu` | Normal | Run :TSUpdate command |
+| `<leader>slt` | Normal | See load times of plugins |
 
 # More images
 
