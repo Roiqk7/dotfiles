@@ -70,6 +70,12 @@ See [this](https://github.com/jdhao/nvim-config/blob/master/docs/README.md) for 
 | `<leader>tsu` | Normal | Run :TSUpdate command |
 | `<leader>slt` | Normal | See load times of plugins |
 
+## Plugin specific commands
+Here are some very useful plugin specific commands that have specific usecases but are nonetheless usefull.
+
+### [surround.vim](https://github.com/tpope/vim-surround)
+Read the documentation as it explains it very clearly. This plugin is very usefull and will save you a lot of time.
+
 # More images
 
 # Toubleshooting
