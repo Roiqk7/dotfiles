@@ -36,7 +36,7 @@ ZSH_THEME="awesomepanda"
 # zstyle ':omz:update' mode reminder  # just remind me to update when it's time
 
 # Uncomment the following line to change how often to auto-update (in days).
-# zstyle ':omz:update' frequency 13
+zstyle ':omz:update' frequency 7
 
 # Uncomment the following line if pasting URLs and other text is messed up.
 # DISABLE_MAGIC_FUNCTIONS="true"
@@ -112,7 +112,121 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+source source ~/.config/tmuxAliases.zsh
 source /opt/homebrew/opt/powerlevel10k/powerlevel10k.zsh-theme
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# Adds zpresto
+source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
+
+echo '(( ! ${+functions[p10k]} )) || p10k finalize' >>! ~/.zshrc
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
