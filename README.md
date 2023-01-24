@@ -72,4 +72,7 @@ See [this](https://github.com/jdhao/nvim-config/blob/master/docs/README.md) for 
 
 # More images
 
+# Toubleshooting
 
+## Too many files open
+If you get this error message after runnig `:PackerSync` then go into terminal and enter this piece of code `ulimit -n 10240`. But this is not permanent solution. It will increase number of max files just for the current session. 
