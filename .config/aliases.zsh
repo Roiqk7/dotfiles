@@ -1,7 +1,7 @@
-# reload zsh config
+# general
+alias r="source ~/.zshrc"
 alias c="clear"
 alias x="exit"
-alias r="source ~/.zshrc"
 
 # filesystem aliases
 alias .="open ."
