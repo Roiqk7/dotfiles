@@ -64,6 +64,7 @@ See [this](https://github.com/jdhao/nvim-config/blob/master/docs/README.md) for 
 Here is a complete list of all plugins. Special thanks to all of the authors and maintainers. The order is same as in the `plugins.lua` file.
 <details>
   <summary>Plugins list</summary>
+ 
   | Name | Description |
   |---|---|
   | **Theme** | **Theme** |
