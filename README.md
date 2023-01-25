@@ -60,7 +60,7 @@ You write these commands in the console, and before your command, you type `tmux
 See [this](https://github.com/jdhao/nvim-config/blob/master/docs/README.md) for information on how to install and setup nvim on your platform. 
 
 ## Plugins
-Here is a complete list of all plugins. Special thanks to all of the authors and maintainers.
+Here is a complete list of all plugins. Special thanks to all of the authors and maintainers. The order is same as in the `plugins.lua` file.
 <details>
   <summary>Plugins list</summary>
 
