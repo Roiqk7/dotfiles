@@ -27,16 +27,17 @@ Follow tmux [instalation guide](https://github.com/tmux/tmux/wiki/Installing) to
 * To further customize your tmux read the [official theme plugin documentation](https://draculatheme.com/tmux) for more information.
 
 ## Commands
-You write these commands in the console, and before your command, you type `tmux`.
+You write these commands in the console. Note: for these to work you need to setup `aliases.zsh` which I provide to you i `.config` and you need to add `source ~/.config/aliases.zsh` to your `zshrc`.
 
 | Commands | Description |
 |---|---|
-| `new -s <name>` | Create new session with name |
-| `attach -t <name>` | Come back to session |
-| `ls` | List of sessions |
-| `dettach` | Leave session |
-| `kill-session` | Delete current session |
-| `kill-server` | Delete all sessions |
+| `tns <name>` | Create new session with name |
+| `ta <name>` | Come back to session |
+| `tl` | List of sessions |
+| `td` | Leave session |
+| `ts` | Delete current session |
+| `tko` | Delete all other sessions |
+| `tka` | Delete all sessions |
 
 ## Key binding
 `<prefix>` represents `<control>a` (must be pressed at the same time).
