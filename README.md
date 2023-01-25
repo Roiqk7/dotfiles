@@ -10,7 +10,7 @@ This configuration is aimed at C/C++/Rust/Lua development in Neovim on MacOS. Th
 * [Powerlevel10k](https://github.com/romkatv/powerlevel10k)
 * [NerdFonts](https://github.com/ryanoasis/nerd-fonts#--)
 
-Follow [this quick tutorial](https://gist.github.com/GLMeece/4b51037daa0d6b83256f80b560246f38) to get everything you need for full experience.
+Follow [this quick tutorial](https://gist.github.com/GLMeece/4b51037daa0d6b83256f80b560246f38) to get everything you need for the full experience.
 Also, if you want a powerful zsh setup read [this article](https://dev.to/abdfnx/oh-my-zsh-powerlevel10k-cool-terminal-1no0) and then check my `.zshrc` file and `aliases.zsh` file which is inside `.config` directory.
 
 # Tmux 
@@ -27,7 +27,7 @@ Follow tmux [instalation guide](https://github.com/tmux/tmux/wiki/Installing) to
 * To further customize your tmux read the [official theme plugin documentation](https://draculatheme.com/tmux) for more information.
 
 ## Commands
-You write these commands in the console. Note: for these to work you need to setup `aliases.zsh` which I provide to you i `.config` and you need to add `source ~/.config/aliases.zsh` to your `zshrc`.
+You write these commands in the console. Note: for these to work, you need to setup `aliases.zsh` which I provide to you in `.config` and you need to add `source ~/.config/aliases.zsh` to your `zshrc`.
 
 | Commands | Description |
 |---|---|
@@ -61,7 +61,7 @@ You write these commands in the console. Note: for these to work you need to set
 See [this](https://github.com/jdhao/nvim-config/blob/master/docs/README.md) for information on how to install and setup nvim on your platform. 
 
 ## Plugins
-Here is a complete list of all plugins. Special thanks to all of the authors and maintainers. The order is same as in the `plugins.lua` file.
+Here is a complete list of all plugins. Special thanks to all of the authors and maintainers. The order is the same as in the `plugins.lua` file.
 <details>
   <summary>Plugins list</summary>
  
@@ -73,9 +73,9 @@ Here is a complete list of all plugins. Special thanks to all of the authors and
   | [Onedark](https://github.com/navarasu/onedark.nvim) | Awesome theme |
   | [Vim Nightfly Guicolors](https://github.com/bluz71/vim-nightfly-colors) | Theme |
   | [Tender](https://github.com/jacoborus/tender.vim) | Theme |
-  | [Melange](https://github.com/savq/melange-nvim) | Theme inspired by monokai |
+  | [Melange](https://github.com/savq/melange-nvim) | Theme inspired by Monokai |
   | [Catppuccin](https://github.com/savq/melange-nvim) | Theme |
-  | [Startup](https://github.com/startup-nvim/startup.nvim) | Customizable startup screeen |
+  | [Startup](https://github.com/startup-nvim/startup.nvim) | Customizable startup screen |
   | **Essential** | Add functionality |
   | [Surround](https://github.com/tpope/vim-surround) | Master parentheses, brackets, quotes, XML tags, and more |
   | [Replace With Register](https://github.com/inkarkat/vim-ReplaceWithRegister) | Better replace mechanics |
@@ -123,9 +123,9 @@ Here is a complete list of all plugins. Special thanks to all of the authors and
  | [DAP Virtual Text](https://github.com/theHamsta/nvim-dap-virtual-text) | Adds virtual text support to [DAP](https://github.com/mfussenegger/nvim-dap) |
  | [Cortex debug](https://github.com/Marus/cortex-debug) | Debugger for C/C++/Rust |
  | [Which key](https://github.com/folke/which-key.nvim) | Shows possible key bindings |
- | [Trouble](https://github.com/folke/trouble.nvim) | Pretty list for diagnostics, definitions etc. |
- | [Null-ls](https://github.com/jose-elias-alvarez/null-ls.nvim) | Inject LSP diagnostics, code actions etc. |
- | [Mason Null-ls](https://github.com/jay-babu/mason-null-ls.nvim) | Bridges [Mason](https://github.com/williamboman/mason.nvim) and [Null Ls](https://github.com/jose-elias-alvarez/null-ls.nvim) |
+ | [Trouble](https://github.com/folke/trouble.nvim) | Pretty list for diagnostics, definitions, etc. |
+ | [Null-ls](https://github.com/jose-elias-alvarez/null-ls.nvim) | Inject LSP diagnostics, code actions, etc. |
+ | [Mason Null-ls](https://github.com/jay-babu/mason-null-ls.nvim) | Bridges [Mason](https://github.com/williamboman/mason.nvim) and [Null-ls](https://github.com/jose-elias-alvarez/null-ls.nvim) |
  | [Treesitter](https://github.com/nvim-treesitter/nvim-treesitter) | Highlighting |
  | [LSP Saga](https://github.com/glepnir/lspsaga.nvim) | Powerfull LSP UI plugin |
  | [Fidget](https://github.com/j-hui/fidget.nvim) | LSP progress handler |
@@ -133,7 +133,7 @@ Here is a complete list of all plugins. Special thanks to all of the authors and
  | [Editor Config](https://github.com/gpanders/editorconfig.nvim) | Style guide helper |
  | [Indent-o-matic](https://github.com/Darazaki/indent-o-matic) | Automatic indentation |
  | [Whitespace](https://github.com/johnfrankmorgan/whitespace.nvim) | Remove trailing spaces |
- | [Autopairs](https://github.com/windwp/nvim-autopairs) | Automatiocally close parens, brackets, quotes etc. |
+ | [Autopairs](https://github.com/windwp/nvim-autopairs) | Automatically close parens, brackets, quotes, etc. |
  | [LSP Colors](https://github.com/folke/lsp-colors.nvim) | Adds colors for LSP |
  | [Custom Diagnostic Highlight](https://github.com/Kasama/nvim-custom-diagnostic-highlight) | Better LSP Highlight |
  | [Dressing](https://github.com/stevearc/dressing.nvim) | Better UI |
@@ -157,7 +157,7 @@ Here is a complete list of all plugins. Special thanks to all of the authors and
 | `<leader>lt` | Normal | See load times of plugins |
 
 ## Recommended read
-Here are some resources you can use to master this configuration. Note that all the plugins mentioned are already installed and setup.
+Here are some resources you can use to master this configuration. Note that all the plugins mentioned are already installed and configured.
 
 | Name | Description |
 |---|---|
@@ -168,4 +168,4 @@ Here are some resources you can use to master this configuration. Note that all 
 # Toubleshooting
 
 ## Too many files open
-If you get this error message after running `:PackerSync` then go into a terminal and enter this piece of code `ulimit -n 10240`. Note that this is not a permanent solution. It will increase the maximum number of files just for the current session.
+If you get this error message after running `:PackerSync` then go into a terminal and enter this piece of code: `ulimit -n 10240`. Note that this is not a permanent solution. It will increase the maximum number of files just for the current session.
