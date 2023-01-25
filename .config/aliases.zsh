@@ -10,6 +10,14 @@ alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
 
+# brew aliases
+alias bu="brew upgrade"
+alias bi="brew install"
+alias bls="brew list"
+
+# git aliases
+alias gc="git clone --recursive"
+
 # tmux aliases
 alias ta="tmux attach"
 alias tl="tmux ls"
