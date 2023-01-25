@@ -56,6 +56,7 @@ You write these commands in the console. Note: for these to work, you need to se
 ## Steps:
 1. Install neovim
 2. Put the `nvim` folder into your `.config` directory.
+3. Run :PackerSync
 
 ## Installation
 See [this](https://github.com/jdhao/nvim-config/blob/master/docs/README.md) for information on how to install and setup nvim on your platform. 
