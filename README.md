@@ -59,8 +59,10 @@ You write these commands in the console, and before your command, you type `tmux
 ## Installation
 See [this](https://github.com/jdhao/nvim-config/blob/master/docs/README.md) for information on how to install and setup nvim on your platform. 
 
+## Plugins
+Here is complete list of all plugins. Special thanks to all of the authors and maintainers.
 <details>
-  ## Plugins list</summary
+  <summary>Plugins list</summary>
 
   [Packer.nvim](https://github.com/wbthomason/packer.nvim)
 
@@ -81,11 +83,12 @@ See [this](https://github.com/jdhao/nvim-config/blob/master/docs/README.md) for 
 | `<leader>tsu` | Normal | Run :TSUpdate command |
 | `<leader>slt` | Normal | See load times of plugins |
 
-## Plugin specific commands
-Here are some very useful plugin specific commands that have specific usecases but are nonetheless usefull.
+## Recommended read
+Here are some resources you can use to master this configuration. Note all mentioned plugins are already installed and setup.
 
-### [surround.vim](https://github.com/tpope/vim-surround)
-Read the documentation as it explains it very clearly. This plugin is very usefull and will save you a lot of time.
+| Name | Description |
+|---|---|
+| [surround.vim](https://github.com/tpope/vim-surround) | Master the art of parentheses, brackets, quotes, XML tags, and more |
 
 # More images
 
