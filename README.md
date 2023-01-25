@@ -101,6 +101,7 @@ Here is a complete list of all plugins. Special thanks to all of the authors and
   | [Cpp Modern](https://github.com/bfrg/vim-cpp-modern) | Better C/C++ experience |
   | [Deoplete clang](https://github.com/deoplete-plugins/deoplete-clang) | Better C/C++ experience |
   | [Clangd Extensions](https://github.com/p00f/clangd_extensions.nvim) | Better C/C++ experience |
+  | [Cpp Enhanced Highlight](https://github.com/octol/vim-cpp-enhanced-highlight) | Highlighting for C++ |
   | [Popfix](https://github.com/RishabhRD/popfix) | Allows you to write UI for plugins easily |
   | [Nvim Lsp Utils](https://github.com/RishabhRD/nvim-lsputils) | Better LSP |
   | [Lsp Status](https://github.com/nvim-lua/lsp-status.nvim) | Helps to generate status line |
