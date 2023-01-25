@@ -64,9 +64,38 @@ See [this](https://github.com/jdhao/nvim-config/blob/master/docs/README.md) for 
 Here is a complete list of all plugins. Special thanks to all of the authors and maintainers. The order is same as in the `plugins.lua` file.
 <details>
   <summary>Plugins list</summary>
-
-  * [Packer.nvim](https://github.com/wbthomason/packer.nvim)
-
+  | Name | Description |
+  |---|---|
+  | **Theme** | **Theme** |
+  | [Packer](https://github.com/wbthomason/packer.nvim) | Plugin/Package manager |
+  | [Plenary](https://github.com/nvim-lua/plenary.nvim) | Used by plugins |
+  | [Onedark](https://github.com/navarasu/onedark.nvim) | Awesome theme |
+  | [Vim Nightfly Guicolors](https://github.com/bluz71/vim-nightfly-colors) | Theme |
+  | [Tender](https://github.com/jacoborus/tender.vim) | Theme |
+  | [Melange](https://github.com/savq/melange-nvim) | Theme inspired by monokai |
+  | [Catppuccin](https://github.com/savq/melange-nvim) | Theme |
+  | [Startup](https://github.com/startup-nvim/startup.nvim) | Customizable startup screeen |
+  | **Essential** | **Essential** |
+  | [Surround](https://github.com/tpope/vim-surround) | Master parentheses, brackets, quotes, XML tags, and more |
+  | [Replace With Register](https://github.com/inkarkat/vim-ReplaceWithRegister) | Better replace mechanics |
+  | [Comment](https://github.com/numToStr/Comment.nvim) | Better comments |
+  | [Vim Tmux Navigator](https://github.com/christoomey/vim-tmux-navigator) | Navigate seamlessly between vim and tmux |
+  | [Vim Maximizer](https://github.com/szw/vim-maximizer) | Maximize vim windows |
+  | [Nvim Tree](https://github.com/nvim-tree/nvim-tree.lua) | File explorer |
+  | [Vim Dev Icons](https://github.com/ryanoasis/vim-devicons) | Adds icons for plugins |
+  | [Lua line](https://github.com/nvim-lualine/lualine.nvim) | Adds neovim status line |
+  | [Telescope](https://github.com/nvim-telescope/telescope.nvim) | Finder |
+  | [Grammarous](https://github.com/rhysd/vim-grammarous) | Grammar checker |
+  | [Open Browser](https://github.com/tyru/open-browser.vim) | Lets you open url |
+  | [Symbols Outline](https://github.com/simrat39/symbols-outline.nvim) | Tree like view for symbols |
+  | [Todo Comments](https://github.com/folke/todo-comments.nvim) | Add todo comments |
+  | [Sad](https://github.com/ray-x/sad.nvim) | Find and replace |
+  | [Navigator](https://github.com/numToStr/Navigator.nvim) | Navigate easily between neovim and multiplexer |
+  | [Neoclip](https://github.com/matveyt/neoclip) | Clipboard manager |
+  | [Impatient](https://github.com/lewis6991/impatient.nvim) | Speed up startup time |
+  | [Neorg](https://github.com/nvim-neorg/neorg) | Organizer |
+  | **Languages** | **Languages** |
+  
 </details>
 
 ## Key binding
