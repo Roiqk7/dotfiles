@@ -28,7 +28,7 @@ Follow tmux [installation guide](https://github.com/tmux/tmux/wiki/Installing) t
 * To further customize your tmux read the [official Dracula theme plugin documentation](https://draculatheme.com/tmux) for more information.
 
 ## Commands
-You write these commands in the console. Note: for these to work, you need to setup `aliases.zsh` which I provide to you in `.config` and you need to add `source ~/.config/aliases.zsh` to your `zshrc`.
+You write these commands in the console. Note: for these to work, you need to setup `aliases.zsh` which I provide to you in `.config` and you need to add `source ~/.config/aliases.zsh` to your `.zshrc`.
 
 | Commands | Description |
 |---|---|
