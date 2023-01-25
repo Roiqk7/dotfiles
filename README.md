@@ -11,7 +11,7 @@ This configuration is aimed at C++ development in Neovim on MacOS. That being sa
 * [NerdFonts](https://github.com/ryanoasis/nerd-fonts#--)
 
 Follow [this](https://gist.github.com/GLMeece/4b51037daa0d6b83256f80b560246f38) quick tutorial to get you everything you need to get full experience.
-Also, if you want a powerful zsh setup read [this](https://dev.to/abdfnx/oh-my-zsh-powerlevel10k-cool-terminal-1no0) and then check my `.zshrc` file.
+Also, if you want a powerful zsh setup read [this article](https://dev.to/abdfnx/oh-my-zsh-powerlevel10k-cool-terminal-1no0) and then check my `.zshrc` file and `aliases.zsh` file which is inside `.config` directory.
 
 # Tmux 
 ## Steps:
