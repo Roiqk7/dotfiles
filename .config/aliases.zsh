@@ -13,7 +13,7 @@ alias .....="cd ../../../.."
 # brew aliases
 alias bu="brew upgrade"
 alias bi="brew install"
-alias bls="brew list"
+alias bl="brew list"
 
 # git aliases
 alias gc="git clone --recursive"
