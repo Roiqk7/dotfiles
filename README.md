@@ -10,7 +10,7 @@ This configuration is aimed at C++ development in Neovim on MacOS. That being sa
 * [Powerlevel10k](https://github.com/romkatv/powerlevel10k)
 * [NerdFonts](https://github.com/ryanoasis/nerd-fonts#--)
 
-Follow [this](https://gist.github.com/GLMeece/4b51037daa0d6b83256f80b560246f38) quick tutorial to get you everything you need to get full experience.
+Follow [this quick tutorial](https://gist.github.com/GLMeece/4b51037daa0d6b83256f80b560246f38) to get everything you need for full experience.
 Also, if you want a powerful zsh setup read [this article](https://dev.to/abdfnx/oh-my-zsh-powerlevel10k-cool-terminal-1no0) and then check my `.zshrc` file and `aliases.zsh` file which is inside `.config` directory.
 
 # Tmux 
@@ -24,7 +24,7 @@ Follow tmux [instalation guide](https://github.com/tmux/tmux/wiki/Installing) to
 
 ## Configuration
 * If you want your temperature in fahrenheit then in `.tmux.conf` file change `set -g @dracula-show-fahrenheit` to `false`.
-* To customize your tmux further read the [official theme plugin documentation](https://draculatheme.com/tmux) for more information.
+* To further customize your tmux read the [official theme plugin documentation](https://draculatheme.com/tmux) for more information.
 
 ## Commands
 You write these commands in the console, and before your command, you type `tmux`.
@@ -60,11 +60,11 @@ You write these commands in the console, and before your command, you type `tmux
 See [this](https://github.com/jdhao/nvim-config/blob/master/docs/README.md) for information on how to install and setup nvim on your platform. 
 
 ## Plugins
-Here is complete list of all plugins. Special thanks to all of the authors and maintainers.
+Here is a complete list of all plugins. Special thanks to all of the authors and maintainers.
 <details>
   <summary>Plugins list</summary>
 
-  [Packer.nvim](https://github.com/wbthomason/packer.nvim)
+  * [Packer.nvim](https://github.com/wbthomason/packer.nvim)
 
 </details>
 
@@ -84,7 +84,7 @@ Here is complete list of all plugins. Special thanks to all of the authors and m
 | `<leader>slt` | Normal | See load times of plugins |
 
 ## Recommended read
-Here are some resources you can use to master this configuration. Note all mentioned plugins are already installed and setup.
+Here are some resources you can use to master this configuration. Note that all the plugins mentioned are already installed and setup.
 
 | Name | Description |
 |---|---|
