@@ -21,7 +21,7 @@ Also, if you want a powerful zsh setup read [this article](https://dev.to/abdfnx
 3. Open a terminal and run `tmux source ~/.tmux.conf` to reload the configuration file.
 
 ## Instalation
-Follow tmux [instalation guide](https://github.com/tmux/tmux/wiki/Installing) to install it properly.
+Follow tmux [installation guide](https://github.com/tmux/tmux/wiki/Installing) to install it properly.
 
 ## Configuration
 * If you want your temperature in fahrenheit then in `.tmux.conf` file change `set -g @dracula-show-fahrenheit` to `false`.
