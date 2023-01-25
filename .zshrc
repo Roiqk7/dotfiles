@@ -112,7 +112,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-source source ~/.config/tmuxAliases.zsh
+source ~/.config/aliases.zsh
 source /opt/homebrew/opt/powerlevel10k/powerlevel10k.zsh-theme
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
@@ -122,6 +122,23 @@ source /opt/homebrew/opt/powerlevel10k/powerlevel10k.zsh-theme
 source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 
 echo '(( ! ${+functions[p10k]} )) || p10k finalize' >>! ~/.zshrc
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
+(( ! ${+functions[p10k]} )) || p10k finalize
 (( ! ${+functions[p10k]} )) || p10k finalize
 (( ! ${+functions[p10k]} )) || p10k finalize
 (( ! ${+functions[p10k]} )) || p10k finalize
