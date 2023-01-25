@@ -95,6 +95,7 @@ Here is a complete list of all plugins. Special thanks to all of the authors and
   | [Neoclip](https://github.com/matveyt/neoclip) | Clipboard manager |
   | [Impatient](https://github.com/lewis6991/impatient.nvim) | Speed up startup time |
   | [Neorg](https://github.com/nvim-neorg/neorg) | Organizer |
+  | [Bufferline](https://github.com/akinsho/bufferline.nvim) | Shameless attempt to emulate the aesthetics of GUI text editors |
   | **Languages** | LSP, language specific plugins |
   | [Rust tools](https://github.com/simrat39/rust-tools.nvim) | Better rust experience |
   | [Cpp Modern](https://github.com/bfrg/vim-cpp-modern) | Better C/C++ experience |
@@ -122,11 +123,20 @@ Here is a complete list of all plugins. Special thanks to all of the authors and
  | [Cortex debug](https://github.com/Marus/cortex-debug) | Debugger for C/C++/Rust |
  | [Which key](https://github.com/folke/which-key.nvim) | Shows possible key bindings |
  | [Trouble](https://github.com/folke/trouble.nvim) | Pretty list for diagnostics, definitions etc. |
- | [Null Ls](https://github.com/jose-elias-alvarez/null-ls.nvim) | Inject LSP diagnostics, code actions etc. |
- | [Mason Null Ls](https://github.com/jay-babu/mason-null-ls.nvim) | Bridges [Mason](https://github.com/williamboman/mason.nvim) and [Null Ls](https://github.com/jose-elias-alvarez/null-ls.nvim) |
+ | [Null-ls](https://github.com/jose-elias-alvarez/null-ls.nvim) | Inject LSP diagnostics, code actions etc. |
+ | [Mason Null-ls](https://github.com/jay-babu/mason-null-ls.nvim) | Bridges [Mason](https://github.com/williamboman/mason.nvim) and [Null Ls](https://github.com/jose-elias-alvarez/null-ls.nvim) |
  | [Treesitter](https://github.com/nvim-treesitter/nvim-treesitter) | Highlighting |
  | [LSP Saga](https://github.com/glepnir/lspsaga.nvim) | Powerfull LSP UI plugin |
  | [Fidget](https://github.com/j-hui/fidget.nvim) | LSP progress handler |
+ | **Esthetics** | Style guide, indentation, trailing spaces etc. |
+ | [Editor Config](https://github.com/gpanders/editorconfig.nvim) | Style guide helper |
+ | [Indent-o-matic](https://github.com/Darazaki/indent-o-matic) | Automatic indentation |
+ | [Whitespace](https://github.com/johnfrankmorgan/whitespace.nvim) | Remove trailing spaces |
+ | [Autopairs](https://github.com/windwp/nvim-autopairs) | Automatiocally close parens, brackets, quotes etc. |
+ | [LSP Colors](https://github.com/folke/lsp-colors.nvim) | Adds colors for LSP |
+ | [Custom Diagnostic Highlight](https://github.com/Kasama/nvim-custom-diagnostic-highlight) | Better LSP Highlight |
+ | [Dressing](https://github.com/stevearc/dressing.nvim) | Better UI |
+ | [Git Signs](https://github.com/lewis6991/gitsigns.nvim) | Git decorations |
  
 </details>
 
