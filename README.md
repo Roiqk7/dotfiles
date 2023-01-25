@@ -60,9 +60,9 @@ You write these commands in the console, and before your command, you type `tmux
 See [this](https://github.com/jdhao/nvim-config/blob/master/docs/README.md) for information on how to install and setup nvim on your platform. 
 
 <details>
-  <summary> ## Plugins list</summary>
+  ## Plugins list</summary
 
-  *[Packer.nvim](https://github.com/wbthomason/packer.nvim)
+  [Packer.nvim](https://github.com/wbthomason/packer.nvim)
 
 </details>
 
