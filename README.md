@@ -20,7 +20,11 @@ Also, if you want a powerful zsh setup read [this article](https://dev.to/abdfnx
 3. Open a terminal and run `tmux source ~/.tmux.conf` to reload the configuration file.
 
 ## Instalation
-Install tmux [here](https://github.com/tmux/tmux/wiki/Installing).
+Follow tmux [instalation guide](https://github.com/tmux/tmux/wiki/Installing) to install it properly.
+
+## Configuration
+* If you want your temperature in fahrenheit then in `.tmux.conf` file change `set -g @dracula-show-fahrenheit` to `false`.
+* To customize your tmux further read the [official theme plugin documentation](https://draculatheme.com/tmux) for more information.
 
 ## Commands
 You write these commands in the console, and before your command, you type `tmux`.
