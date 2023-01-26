@@ -8,6 +8,7 @@ This configuration is aimed at C/C++/Rust/Lua development in Neovim on MacOS. Th
 
 ## Table of Contents
 * [Prerequisites](#Prerequisites)
+* [Zsh](#Zsh)
 * [Tmux](#Tmux)
 * [Neovim](#Neovim)
 
@@ -23,6 +24,21 @@ Follow [this quick tutorial](https://gist.github.com/GLMeece/4b51037daa0d6b83256
 # Zsh
 If you followed [prerequisites](#Prerequisites) section you should have most of the stuff done already. Now we just take it one step further. For powerful zsh setup read [this article](https://dev.to/abdfnx/oh-my-zsh-powerlevel10k-cool-terminal-1no0) and then check my `.zshrc` file and `aliases.zsh` file which is inside `.config` directory. Here you will find my personal configuration with aliases I find useful. 
 
+## Plugins
+You can find plugins I use in the `.zshrc` file. There is ```plugins =( ... )``` with all my plugins.
+<details>
+  <summary>Plugins list</summary>
+ 
+  | Name | Description |
+  |---|---|
+  | [Zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) | Does as it says |
+  | [Zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) | This is a must have |
+  | [Brew](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/brew) | Adds aliases for common brew commands |
+  | [Git](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git) | Adds aliases for common git commands |
+  | [MacOS](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/macos) | Utilities for macOS system |
+  | [Tmux](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/tmux) | Aliases for common tmux commands |
+</details>
+ 
 # Tmux 
 ## Steps:
 1. Install tmux
