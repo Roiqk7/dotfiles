@@ -23,7 +23,6 @@ alias td="tmux detach"
 alias tkc="tmux kill-session"
 alias tko="tmux kill-session -a"
 alias tka="tmux kill-server"
-alias tr="tmux source ~/.tmux.conf"
 
 # custom
-alias reload="echo 'zsh reload' && r && echo 'brew update, outdated, upgrade, cleanup' && bubu && echo 'tmux reload' && tr && echo 'reload finished succesfully'"
+alias reload="echo 'zsh reload' && r && echo 'brew update, outdated, upgrade, cleanup' && bubu"
