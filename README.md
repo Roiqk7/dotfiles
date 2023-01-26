@@ -6,7 +6,7 @@ This configuration is aimed at C/C++/Rust/Lua development in Neovim on MacOS. Th
 
 ![Startup](https://github.com/Roiqk7/dotfiles/blob/main/assets/nvimStartup.png?raw=true)
 
-# Table of Contents
+## Table of Contents
 * [Prerequisites](#Prerequisites)
 * [Tmux](#Tmux)
 * [Neovim](#Neovim)
