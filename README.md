@@ -70,6 +70,7 @@ For these commands to work you need to have my [zsh](#zsh) configuration and hav
 | `tkc` | Terminate current session |
 | `tko` | Terminate all other sessions |
 | `tka` | Terminate all sessions |
+| `tr` | Reload tmux configuration |
 
 ## Key binding
 `<prefix>` represents `<control>a` (must be pressed at the same time).
