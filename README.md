@@ -28,7 +28,6 @@ If you followed [prerequisites](#Prerequisites) section you should have most of 
 You can find plugins I use in the `.zshrc` file. There is ```plugins =( ... )``` with all my plugins.
 <details>
   <summary>Plugins list</summary>
- 
   | Name | Description |
   |---|---|
   | [Zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) | Does as it says |
@@ -53,17 +52,17 @@ Follow tmux [installation guide](https://github.com/tmux/tmux/wiki/Installing) t
 * To further customize your tmux read the [official Dracula theme plugin documentation](https://draculatheme.com/tmux) for more information.
 
 ## Commands
-You write these commands in the console. Note: for these to work, you need to setup `aliases.zsh` which I provide to you in `.config` and you need to add `source ~/.config/aliases.zsh` to your `.zshrc`.
+For these commands to work you need to have my [zsh](#zsh) configuration and have [this tmux plugin](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/tmux) and my `aliases.zsh` file setup properly.
 
 | Commands | Description |
 |---|---|
-| `tns <name>` | Create new session with name |
+| `ts <name>` | Create new session with name |
 | `ta <name>` | Come back to session |
 | `tl` | List of sessions |
 | `td` | Leave session |
-| `ts` | Delete current session |
-| `tko` | Delete all other sessions |
-| `tka` | Delete all sessions |
+| `tkc` | Terminate current session |
+| `tko` | Terminate all other sessions |
+| `tka` | Terminate all sessions |
 
 ## Key binding
 `<prefix>` represents `<control>a` (must be pressed at the same time).
