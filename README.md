@@ -43,6 +43,7 @@ You can find plugins I use in the `.zshrc` file. There is ```plugins =( ... )```
 
 ## Aliases
 `aliases.zsh` file which is inside `.config` directory. Here you will find my personal configuration with aliases I find useful. Also plugins mentioned above add a lot more.
+
 Note: Don't forget to add `source ~/.config/aliases.zsh` into your `.zshrc`.
 
 ### Custom commands
