@@ -47,6 +47,7 @@ Note: Don't forget to add `source ~/.config/aliases.zsh` into your `.zshrc`.
 
 ### Custom commands
 | Command | Desription |
+|---|---|
 | reload | Basically reloads and updates everything |
  
 # Tmux 
