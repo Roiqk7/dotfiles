@@ -1,6 +1,6 @@
 # Under Construction - Changing every day
 TODO: C++ and Rust, remove lazy loading, finish individual plugin check and setup, remove unused plugins, keymapping, add ZSH section at the start with aliases, etc.
-! .tmix.conf: alias ta has 2 definitions 
+! .tmix.conf: alias ta has 2 definitions, plugrc init doesnt initiaze all plugins 
 # Introduction
 This configuration is aimed at C/C++/Rust/Lua development in Neovim on MacOS. That being said, the purpose of this repository is to help you get started. You are encouraged to change it to your liking, and I designed it with that in mind.
 
