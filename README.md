@@ -50,6 +50,7 @@ Note: Don't forget to add `source ~/.config/aliases.zsh` into your `.zshrc`.
 | Command | Desription |
 |---|---|
 | reload | Reloads zsh and runs several brew commands to keep everything up to date |
+| .zshrc | Opens .zshrc in neovim |
  
 # Tmux 
 ## Steps:
