@@ -26,3 +26,4 @@ alias tka="tmux kill-server"
 
 # custom
 alias reload="echo 'zsh reload' && r && echo 'brew update, outdated, upgrade, cleanup' && bubu"
+alias .zshrc="cd ~/ && nvim .zshrc"
