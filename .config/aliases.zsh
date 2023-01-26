@@ -19,9 +19,8 @@ alias bl="brew list"
 alias gc="git clone --recursive"
 
 # tmux aliases
-alias ta="tmux attach"
-alias tl="tmux ls"
 alias ta="tmux attach -t"
+alias tl="tmux ls"
 alias td="tmux detach"
 alias tns="tmux new-session -s"
 alias tks="tmux kill-session"
