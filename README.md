@@ -28,6 +28,7 @@ If you followed [prerequisites](#Prerequisites) section you should have most of 
 You can find plugins I use in the `.zshrc` file. There is ```plugins =( ... )``` with all my plugins.
 <details>
   <summary>Plugins list</summary>
+  
   | Name | Description |
   |---|---|
   | [Zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) | Does as it says |
@@ -36,6 +37,7 @@ You can find plugins I use in the `.zshrc` file. There is ```plugins =( ... )```
   | [Git](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git) | Adds aliases for common git commands |
   | [MacOS](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/macos) | Utilities for macOS system |
   | [Tmux](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/tmux) | Aliases for common tmux commands |
+  
 </details>
  
 # Tmux 
