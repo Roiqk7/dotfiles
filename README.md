@@ -19,7 +19,9 @@ This configuration is aimed at C/C++/Rust/Lua development in Neovim on MacOS. Th
 * [NerdFonts](https://github.com/ryanoasis/nerd-fonts#--)
 
 Follow [this quick tutorial](https://gist.github.com/GLMeece/4b51037daa0d6b83256f80b560246f38) to get everything you need for the full experience.
-Also, if you want a powerful zsh setup read [this article](https://dev.to/abdfnx/oh-my-zsh-powerlevel10k-cool-terminal-1no0) and then check my `.zshrc` file and `aliases.zsh` file which is inside `.config` directory.
+
+# Zsh
+If you followed [prerequisites](#Prerequisites) section you should have most of the stuff done already. Now we just take it one step further. For powerful zsh setup read [this article](https://dev.to/abdfnx/oh-my-zsh-powerlevel10k-cool-terminal-1no0) and then check my `.zshrc` file and `aliases.zsh` file which is inside `.config` directory. Here you will find my personal configuration with aliases I find useful. 
 
 # Tmux 
 ## Steps:
