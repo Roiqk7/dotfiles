@@ -24,3 +24,6 @@ alias tkc="tmux kill-session"
 alias tko="tmux kill-session -a"
 alias tka="tmux kill-server"
 alias tr="tmux source ~/.tmux.conf"
+
+# custom
+alias reload="r && bubu && tr"
