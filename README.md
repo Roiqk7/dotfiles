@@ -51,6 +51,11 @@ Tip: I recommend setting up alias for quick navigation to your work directory
 ### Custom commands
 | Alias | Command | Desription |
 |---|---|---|
+| General | | Usefull commands |
+| `r` | `source ~/.zshrc` | Reload zsh configuration |
+| `c` | `clear` | Clear your terminal |
+| `x` | `exit` | Leave current session |
+| `reload` | `r && bubu` | Reloads zsh and runs several brew commands to keep you up to date |
 | Filesystem | | Move faster across files |
 | `~` | `cd ~/` | Move to home directory |
 | `.` | `Open .` | Opens current directory |
