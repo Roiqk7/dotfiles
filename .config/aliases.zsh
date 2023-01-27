@@ -4,6 +4,7 @@ alias c="clear"
 alias x="exit"
 
 # filesystem aliases
+alias home="cd ~/"
 alias .="open ."
 alias ..="cd .."
 alias ...="cd ../.."
@@ -30,3 +31,6 @@ alias .zshrc="nvim ~/.zshrc"
 alias aliases="nvim ~/.config/aliases.zsh"
 alias neovim="nvim ~/.config/nvim/init.lua"
 alias .tmux.conf="nvim ~/.tmux.conf"
+
+# personal
+alias work="echo 'Undefined'"
