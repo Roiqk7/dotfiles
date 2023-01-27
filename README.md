@@ -22,7 +22,7 @@ This configuration is aimed at C/C++/Rust/Lua development in Neovim on MacOS. Th
 Follow [this quick tutorial](https://gist.github.com/GLMeece/4b51037daa0d6b83256f80b560246f38) to get everything you need for the full experience.
 
 # Zsh
-If you followed [prerequisites](#Prerequisites) section you should have most of the stuff done already. Now we just take it one step further. For powerful zsh setup read [this article](https://dev.to/abdfnx/oh-my-zsh-powerlevel10k-cool-terminal-1no0) and then check my `.zshrc` file.
+If you followed [prerequisites](#Prerequisites) section you should have most of the stuff done already. Now we just take it one step further. For a powerful zsh setup, read [this article](https://dev.to/abdfnx/oh-my-zsh-powerlevel10k-cool-terminal-1no0) and then check my `.zshrc` file.
 
 ## Plugins
 You can find plugins I use in the `.zshrc` file. There is ```plugins =( ... )``` with all my plugins.
@@ -42,16 +42,16 @@ You can find plugins I use in the `.zshrc` file. There is ```plugins =( ... )```
 </details>
 
 ## Aliases
-`aliases.zsh` file which is inside `.config` directory is my personal configuration I find useful. Plugins add a whole lot more and I definetelly recomend checking each plugin out.
+The `aliases.zsh` file, located in the `.config` directory, contains my personal configuration. Plugins add a whole lot more, and I definitely recommend checking each plugin out.
 
 Note: Don't forget to add `source ~/.config/aliases.zsh` into your `.zshrc`.
 
-Tip: I recommend setting up alias for quick navigation to your work directory
+Tip: I recommend setting up alias for quick navigation to your work directory.
 
 ### Custom commands
 | Alias | Command | Desription |
 |---|---|---|
-| **General** | | Usefull commands |
+| **General** | | Practical commands |
 | `r` | `source ~/.zshrc` | Reload zsh configuration |
 | `c` | `clear` | Clear your terminal |
 | `x` | `exit` | Leave current session |
@@ -83,7 +83,7 @@ Tip: I recommend setting up alias for quick navigation to your work directory
 3. Open a terminal and run `tmux source ~/.tmux.conf` to reload the configuration file.
 
 ## Instalation
-Follow tmux [installation guide](https://github.com/tmux/tmux/wiki/Installing) to install it properly.
+Follow the tmux [installation guide](https://github.com/tmux/tmux/wiki/Installing) to install it properly.
 
 ## Configuration
 * If you want your temperature in fahrenheit then in `.tmux.conf` file change `set -g @dracula-show-fahrenheit` to `false`.
