@@ -11,10 +11,13 @@ alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
+
+# shortcuts
 alias .zshrc="nvim ~/.zshrc"
 alias aliases="nvim ~/.config/aliases.zsh"
 alias neovim="nvim ~/.config/nvim/init.lua"
 alias .tmux.conf="nvim ~/.tmux.conf"
+alias work=""
 
 # brew aliases
 alias bu="brew upgrade"
@@ -29,6 +32,3 @@ alias td="tmux detach"
 alias tkc="tmux kill-session"
 alias tko="tmux kill-session -a"
 alias tka="tmux kill-server"
-
-# personal
-alias work="echo 'Undefined'"
