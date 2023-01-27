@@ -51,29 +51,30 @@ Tip: I recommend setting up alias for quick navigation to your work directory
 ### Custom commands
 | Alias | Command | Desription |
 |---|---|---|
-| General | | Usefull commands |
+| **General** | | Usefull commands |
 | `r` | `source ~/.zshrc` | Reload zsh configuration |
 | `c` | `clear` | Clear your terminal |
 | `x` | `exit` | Leave current session |
 | `reload` | `r && bubu` | Reloads zsh and runs several brew commands to keep you up to date |
-| Filesystem | | Move faster across files |
+| **Filesystem** | | Move faster across files |
 | `~` | `cd ~/` | Move to home directory |
 | `.` | `Open .` | Opens current directory |
 | `..` | `cd ..` | Move up a directory |
 | `...` | `cd ../..` | Move up 2 directories |
 | `....` | `cd ../../..` | Move up 3 directories |
 | `.....` | `cd ../../../..` | Move up 4 directories |
+| **Shortcuts** | | Fast navigation |
 | `.zshrc` | `nvim ~/.zshrc` | Opens `.zshrc` in neovim |
 | `aliases` | `nvim ~/.config/aliases.zsh` | Opens `aliases.zsh` in neovim |
 | `neovim` | `nvim ~/.config/nvim/init.lua` | Opens `init.lua` in neovim |
 | `.tmux.conf` | `nvim ~/.tmux.conf` | Opens `.tmux.conf` in neovim |
-| Brew | Note: [Brew](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/brew) plugin adds a lot more | Common brew comands |
+| `work` | | Move to your work directory |
+| *Brew** | Note: [Brew](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/brew) plugin adds a lot more | Common brew comands |
 | `bu` | `brew upgrade` | Upgrades outdated packages |
 | `bi` | `brew install` | Install package |
 | `bl` | `brew list` | List of brew packages |
-| Git | Note: [Git](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git) plugin adds a lot more | Common git commands |
+| **Git** | Note: [Git](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git) plugin adds a lot more | Common git commands |
 | `gc` | `git clone --recursive` | Clones git repository properly |
-| Personal | This is to be filled by you | For work related commands etc. |
  
 # Tmux 
 ## Steps:
