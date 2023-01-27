@@ -219,6 +219,7 @@ Here is a complete list of all plugins. Special thanks to all of the authors and
 | `<leader>ps` | Normal | Run :PackerSync command |
 | `<leader>tsu` | Normal | Run :TSUpdate command |
 | `<leader>lt` | Normal | See load times of plugins |
+| `<leader>gc` | Normal | Grammar check |
 
 ## Recommended read
 Here are some resources you can use to master this configuration. Note that all the plugins mentioned are already installed and configured.
