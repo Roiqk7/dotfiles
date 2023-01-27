@@ -49,13 +49,26 @@ Note: Don't forget to add `source ~/.config/aliases.zsh` into your `.zshrc`.
 Tip: I recommend setting up alias for quick navigation to your work directory
 
 ### Custom commands
-| Command | Desription |
-|---|---|
-| reload | Reloads zsh and runs several brew commands to keep everything up to date |
+| Alias | Command | Desription |
+|---|---|---|
+| Filesystem | | Move faster across files |
+| `~` | `cd ~/` | Move to home directory |
+| `.` | `Open .` | Opens current directory |
+| `..` | `cd ..` | Move up a directory |
+| `...` | `cd ../..` | Move up 2 directories |
+| `....` | `cd ../../..` | Move up 3 directories |
+| `.....` | `cd ../../../..` | Move up 4 directories |
 | .zshrc | Opens `.zshrc` in neovim |
 | aliases | Opens `aliases.zsh` in neovim |
 | neovim | Opens `init.lua` in neovim |
 | .tmux.conf | Opens `.tmux.conf` in neovim |
+| Brew | Note: [Brew](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/brew) plugin adds a lot more | Common brew comands |
+| `bu` | `brew upgrade` | Upgrades outdated packages |
+| `bi` | `brew install` | Install package |
+| `bl` | `brew list` | List of brew packages |
+| Git | Note: [Git](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git) plugin adds a lot more | Common git commands |
+| `gc` | `git clone --recursive` | Clones git repository properly |
+| Personal | This is to be filled by you | For work related commands etc. |
  
 # Tmux 
 ## Steps:
