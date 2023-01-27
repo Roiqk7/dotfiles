@@ -1,9 +1,9 @@
 # Under Construction - Changing every day
 **TODO:** 
-* C++ (use C++17) and Rust
+* C++ (use C++17), Rust, Lua 
 * Individual plugin check and setup
-* Remove unused plugins, 
-* Remake mapping directory and keymapping, 
+* Remove unused plugins
+* Remake mapping directory and keymapping 
 * Proper install guide
 
 # Introduction
