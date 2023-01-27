@@ -1,5 +1,6 @@
 # Under Construction - Changing every day
-* TODO: C++ (use C++17) and Rust
+**TODO:** 
+* C++ (use C++17) and Rust
 * Individual plugin check and setup
 * Remove unused plugins, 
 * Remake mapping directory and keymapping, 
