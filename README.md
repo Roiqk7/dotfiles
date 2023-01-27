@@ -58,10 +58,10 @@ Tip: I recommend setting up alias for quick navigation to your work directory
 | `...` | `cd ../..` | Move up 2 directories |
 | `....` | `cd ../../..` | Move up 3 directories |
 | `.....` | `cd ../../../..` | Move up 4 directories |
-| .zshrc | Opens `.zshrc` in neovim |
-| aliases | Opens `aliases.zsh` in neovim |
-| neovim | Opens `init.lua` in neovim |
-| .tmux.conf | Opens `.tmux.conf` in neovim |
+| `.zshrc` | `nvim ~/.zshrc` | Opens `.zshrc` in neovim |
+| `aliases` | `nvim ~/.config/aliases.zsh` | Opens `aliases.zsh` in neovim |
+| `neovim` | `nvim ~/.config/nvim/init.lua` | Opens `init.lua` in neovim |
+| `.tmux.conf` | `nvim ~/.tmux.conf` | Opens `.tmux.conf` in neovim |
 | Brew | Note: [Brew](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/brew) plugin adds a lot more | Common brew comands |
 | `bu` | `brew upgrade` | Upgrades outdated packages |
 | `bi` | `brew install` | Install package |
