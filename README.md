@@ -78,6 +78,9 @@ Tip: I recommend setting up alias for quick navigation to your work directory.
 | `bu` | `brew upgrade` | Upgrades outdated packages |
 | `bi` | `brew install` | Install package |
 | `bl` | `brew list` | List of brew packages |
+| `bubo` | `brew update && brew outdated` | Update brew and list outdated packages |
+| `bubc` | `brew upgrade && brew cleanup` | Upgrade outdated packages and run cleanup |
+| `bubu` | `bubo && bubc` | Runs both commands above |
 | **Git** | Note: [Git](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git) plugin adds a lot more | Common git commands |
 | `gc` | `git clone --recursive` | Clones git repository properly |
  
