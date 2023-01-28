@@ -233,11 +233,11 @@ Here is a complete list of all plugins. Special thanks to all of the authors and
 | `<leader>ld` | Normal | Show line diagnostics |
 | `<leader>bd` | Normal | Show buffer diagnostics |
 | `<leader>pd` | Normal | Peek definition in float window |
+| `fd` | Normal | Find definition and reference |
 | `gd` | Normal | Go to definition |
 | `B` | Normal | Get bytes ammount, definition |
 | `[d` `]d` | Any | Move between diagnostics |
 | `[e` `]e` | Any | Jump between errors |
-| `fd` | Any | Find definition and reference |
 | `<command>t` | Any | Opens terminal on next window |
 
 ## Recommended read
