@@ -224,6 +224,7 @@ Here is a complete list of all plugins. Special thanks to all of the authors and
 | `<leader>fs` | Normal | Find string in current directory|
 | `<leader>ftd` | Normal | Search though TODO comments |
 | `<leader>dtd` | Normal | Dislpay all TODO comments |
+| `<leader>ra <old> <new>` | Normal | Replace old with new |
 | `<leader>rb` | Normal | Recent buffers in current session |
 | `<leader>of` | Normal | Old files |
 | `<leader>ps` | Normal | Run :PackerSync command |
