@@ -77,6 +77,7 @@ Tip: I recommend setting up alias for quick navigation to your work directory.
 | **Brew** | Note: [Brew](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/brew) plugin adds a lot more | Common brew comands |
 | `bu` | `brew upgrade` | Upgrades outdated packages |
 | `bi` | `brew install` | Install package |
+| `bri` | `brew reinstall` | Reinstall package |
 | `bl` | `brew list` | List of brew packages |
 | `bubo` | `brew update && brew outdated` | Update brew and list outdated packages |
 | `bubc` | `brew upgrade && brew cleanup` | Upgrade outdated packages and run cleanup |
