@@ -225,8 +225,10 @@ Here is a complete list of all plugins. Special thanks to all of the authors and
 | `<leader>ftd` | Normal | Search though TODO comments |
 | `<leader>dtd` | Normal | Dislpay all TODO comments |
 | `<leader>ra <old> <new>` | Normal | Replace old with new |
+| `<leader>cm` | Normal | Open clipboard manager |
 | `<leader>rb` | Normal | Recent buffers in current session |
 | `<leader>of` | Normal | Old files |
+| `<leader>r` | Normal | Reload nvim configuration |
 | `<leader>ps` | Normal | Run :PackerSync command |
 | `<leader>tsu` | Normal | Run :TSUpdate command |
 | `<leader>lt` | Normal | See load times of plugins |
