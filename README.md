@@ -236,8 +236,8 @@ Here is a complete list of all plugins. Special thanks to all of the authors and
 | `fd` | Normal | Find definition and reference |
 | `gd` | Normal | Go to definition |
 | `B` | Normal | Get bytes ammount, definition |
-| `[d` `]d` | Any | Move between diagnostics |
-| `[e` `]e` | Any | Jump between errors |
+| `[d` `]d` | Normal | Move between diagnostics |
+| `[e` `]e` | Normal | Jump between errors |
 | `<command>t` | Any | Opens terminal on next window |
 
 ## Recommended read
