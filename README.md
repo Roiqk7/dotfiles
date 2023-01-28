@@ -228,6 +228,16 @@ Here is a complete list of all plugins. Special thanks to all of the authors and
 | `<leader>tsu` | Normal | Run :TSUpdate command |
 | `<leader>lt` | Normal | See load times of plugins |
 | `<leader>gc` | Normal | Toggle grammar check |
+| `<leader>ca` | Normal | Code actions |
+| `<leader>o` | Normal | Toggle outline |
+| `<leader>ld` | Normal | Show line diagnostics |
+| `<leader>bd` | Normal | Show buffer diagnostics |
+| `B` | Normal | Get bytes ammount, definition |
+| `[d` `]d` | Any | Move between diagnostics |
+| `[e` `]e` | Any | Jump between errors |
+| `pd` | Any | Peek definition in float window |
+| `gd` | Any | Go to definition |
+| `fd` | Any | Find definition and reference |
 | `<command>t` | Any | Opens terminal on next window |
 
 ## Recommended read
