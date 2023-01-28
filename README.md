@@ -232,11 +232,11 @@ Here is a complete list of all plugins. Special thanks to all of the authors and
 | `<leader>o` | Normal | Toggle outline |
 | `<leader>ld` | Normal | Show line diagnostics |
 | `<leader>bd` | Normal | Show buffer diagnostics |
+| `<leader>pd` | Normal | Peek definition in float window |
+| `gd` | Normal | Go to definition |
 | `B` | Normal | Get bytes ammount, definition |
 | `[d` `]d` | Any | Move between diagnostics |
 | `[e` `]e` | Any | Jump between errors |
-| `pd` | Any | Peek definition in float window |
-| `gd` | Any | Go to definition |
 | `fd` | Any | Find definition and reference |
 | `<command>t` | Any | Opens terminal on next window |
 
