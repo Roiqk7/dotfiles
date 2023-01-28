@@ -11,6 +11,7 @@ alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
+alias tree="colorls --tree --dark"
 
 # shortcuts
 alias .zshrc="nvim ~/.zshrc"
