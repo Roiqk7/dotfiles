@@ -22,6 +22,7 @@ alias work=""
 # brew aliases
 alias bu="brew upgrade"
 alias bi="brew install"
+alias bri="brew reinstall"
 alias bl="brew list"
 
 # git aliases
