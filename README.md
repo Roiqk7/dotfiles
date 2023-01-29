@@ -37,12 +37,13 @@ You can find plugins I use in the `.zshrc` file. There is ```plugins =( ... )```
   
   | Name | Description |
   |---|---|
-  | [Zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) | Does as it says |
-  | [Zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) | This is a must have |
   | [Brew](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/brew) | Adds aliases for common brew commands |
+  | [Colorls](https://github.com/athityakumar/colorls) | Beautiful `ls` and more |
   | [Git](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git) | Adds aliases for common git commands |
   | [MacOS](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/macos) | Utilities for macOS system |
   | [Tmux](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/tmux) | Aliases for common tmux commands |
+  | [Zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) | This is a must have |
+  | [Zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) | Does as it says |
   
 </details>
 
@@ -60,7 +61,10 @@ Tip: I recommend setting up alias for quick navigation to your work directory.
 | `r` | `source ~/.zshrc` | Reload zsh configuration |
 | `c` | `clear` | Clear your terminal |
 | `x` | `exit` | Leave current session |
-| `reload` | `r && bubu` | Reloads zsh and runs several brew commands to keep you up to date |
+| **Maintainance** | | Maintain this configuration with ease |
+| `u_colorls` | `gem update colorls` | Updates [colorls](https://github.com/athityakumar/colorls) |
+| `u_omz` | `omz update` | Updates Oh-my-Zsh |
+| `update` | `bubu && u_colorls && u_omz` | Runs all necessary update commands |
 | **Filesystem** | | Move faster across files |
 | `~` | `cd ~/` | Move to home directory |
 | `.` | `Open .` | Opens current directory |
@@ -68,6 +72,9 @@ Tip: I recommend setting up alias for quick navigation to your work directory.
 | `...` | `cd ../..` | Move up 2 directories |
 | `....` | `cd ../../..` | Move up 3 directories |
 | `.....` | `cd ../../../..` | Move up 4 directories |
+| `ls` | `colorls` | Beautiful ls |
+| `tree` | `colorls --tree=3 --dark` | File tree |
+| `detail` | `colorls -lA --sd --dark` | Detailed info about files |
 | **Shortcuts** | | Fast navigation |
 | `.zshrc` | `nvim ~/.zshrc` | Opens `.zshrc` in neovim |
 | `aliases` | `nvim ~/.config/aliases.zsh` | Opens `aliases.zsh` in neovim |
