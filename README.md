@@ -1,6 +1,6 @@
 # Under Construction - Changing every day
 **TODO:** 
-* ERROR: Lsp and few other plugins behave weirdly, TS norg
+* ERROR: Lsp and few other plugins behave weirdly
 * C++ (use C++17), Rust, Lua 
 * Individual plugin check and setup
 * Remove unused plugins
