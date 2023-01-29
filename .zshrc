@@ -79,12 +79,6 @@ zstyle ':omz:update' frequency 7
 # Add wisely, as too many plugins slow down shell startup.
 plugins=( zsh-syntax-highlighting zsh-autosuggestions brew git macos tmux )
 
-# colors plugin
-if [ -x "$(command -v exa)" ]; then
-    alias ls="exa"
-    alias la="exa --long --all --group"
-fi
-
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
