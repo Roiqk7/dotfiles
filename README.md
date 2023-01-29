@@ -14,8 +14,21 @@ This configuration is aimed at C/C++/Rust/Lua development in Neovim on MacOS. Th
 ## Table of Contents
 * [Prerequisites](#Prerequisites)
 * [Zsh](#Zsh)
+  * [Plugins](#Plugins)
+  * [Aliases](#Aliases)
 * [Tmux](#Tmux)
+  * [Steps](#Steps)
+  * [Instalation](#Instalation)
+  * [Configuration](#Configuration)
+  * [Commands](#Commands)
+  * [Keybinding](#Key binding)
 * [Neovim](#Neovim)
+  * [Steps](#Steps)
+  * [Instalation](#Instalation)
+  * [Plugins](#Plugins)
+  * [Keybinding](#Key)
+  * [Recommended read](#Recommended)
+* [Troubleshooting](#Troubleshooting)
 
 # Prerequisites
 * [iTerm2](https://iterm2.com)
@@ -262,8 +275,6 @@ Here are some resources you can use to master this configuration. Note that all 
 | Name | Description |
 |---|---|
 | [surround.vim](https://github.com/tpope/vim-surround) | Master the art of parentheses, brackets, quotes, XML tags, and more |
-
-# More images
 
 # Toubleshooting
 
