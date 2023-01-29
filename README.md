@@ -14,18 +14,18 @@ This configuration is aimed at C/C++/Rust/Lua development in Neovim on MacOS. Th
 ## Table of Contents
 * [Prerequisites](#Prerequisites)
 * [Zsh](#Zsh)
-  * [Plugins](#Plugins)
+  * [Plugins](#zsh_plugins)
   * [Aliases](#Aliases)
 * [Tmux](#Tmux)
   * [Steps](#Steps)
-  * [Installation](#Instalation)
+  * [Installation](#tmux_installation)
   * [Configuration](#Configuration)
   * [Commands](#Commands)
-  * [Keybinding](#Key-binding)
+  * [Keybinding](#tmux_keybinding)
 * [Neovim](#Neovim)
   * [Steps](#Steps)
-  * [Installation](#Instalation)
-  * [Plugins](#Plugins)
+  * [Installation](#nvim_installation)
+  * [Plugins](#nvim_plugins)
   * [Keybinding](#Key-binding)
   * [Recommended read](#Recommended-read)
 * [Troubleshooting](#Troubleshooting)
@@ -45,7 +45,7 @@ Alternatively, go through the plugins one by one and follow their installation g
 # Zsh
 If you followed [prerequisites](#Prerequisites) section you should have most of the stuff done already. Now we just take it one step further. For a powerful zsh setup, read [this article](https://dev.to/abdfnx/oh-my-zsh-powerlevel10k-cool-terminal-1no0) and then check my `.zshrc` file.
 
-## Plugins
+## Plugins <a name="zsh_plugins"></a>
 You can find plugins I use in the `.zshrc` file. There is ```plugins =( ... )``` with all my plugins.
 
 <details>
@@ -114,7 +114,7 @@ Tip: I recommend setting up alias for quick navigation to your work directory.
 2. Place the `.tmux.conf` file in your root directory (`~/`)
 3. Open a terminal and run `tmux source ~/.tmux.conf` to reload the configuration file.
 
-## Installation
+## Installation <a name="tmux_installation"></a>
 Follow the tmux [installation guide](https://github.com/tmux/tmux/wiki/Installing) to install it properly.
 
 ## Configuration
@@ -134,7 +134,7 @@ For these commands to work you need to have my [zsh](#zsh) configuration and hav
 | `tko` | Terminate all other sessions |
 | `tka` | Terminate all sessions |
 
-## Key binding
+## Key binding <a name="tmux_keybinding"></a>
 `<prefix>` represents `<control>a` (must be pressed at the same time).
 
 | Shortcut | Description |
@@ -153,10 +153,10 @@ For these commands to work you need to have my [zsh](#zsh) configuration and hav
 2. Put the `nvim` folder into your `.config` directory.
 3. Run :PackerSync
 
-## Installation
+## Installation <a name="nvim_installation"></a>
 See [this](https://github.com/jdhao/nvim-config/blob/master/docs/README.md) for information on how to install and setup nvim on your platform. 
 
-## Plugins
+## Plugins <a name="nvim_plugins"></a>
 Here is a complete list of all plugins. Special thanks to all of the authors and maintainers. The order is the same as in the `plugins.lua` file.
 <details>
   <summary>Plugins list</summary>
@@ -237,7 +237,7 @@ Here is a complete list of all plugins. Special thanks to all of the authors and
  
 </details>
 
-## Key binding
+## Key binding <a name="nvim_keybinding"></a>
 `<leader>` represents space key.
 
 | Shortcut | Mode | Description |
