@@ -76,10 +76,10 @@ Tip: I recommend setting up alias for quick navigation to your work directory.
 | `r` | `source ~/.zshrc` | Reload zsh configuration |
 | `c` | `clear` | Clear your terminal |
 | `x` | `exit` | Leave current session |
+| `u` | `bubu && u_colorls && u_omz` | Runs all necessary update commands |
 | **Maintainance** | | Maintain this configuration with ease |
 | `u_colorls` | `gem update colorls` | Updates [colorls](https://github.com/athityakumar/colorls) |
 | `u_omz` | `omz update` | Updates [oh My ZSH!](https://ohmyz.sh) |
-| `update` | `bubu && u_colorls && u_omz` | Runs all necessary update commands |
 | **Filesystem** | | Move faster across files |
 | `~` | `cd ~/` | Move to home directory |
 | `.` | `Open .` | Opens current directory |
