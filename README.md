@@ -80,6 +80,7 @@ Tip: I recommend setting up alias for quick navigation to your work directory.
 | `aliases` | `nvim ~/.config/aliases.zsh` | Opens `aliases.zsh` in neovim |
 | `neovim` | `nvim ~/.config/nvim/init.lua` | Opens `init.lua` in neovim |
 | `.tmux.conf` | `nvim ~/.tmux.conf` | Opens `.tmux.conf` in neovim |
+| `.p10k` | `nvim `~.p10k.zsh` | Opens `.p10k.zsh` in neovim |
 | `work` | | Move to your work directory |
 | **Brew** | Note: [Brew](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/brew) plugin adds a lot more | Common brew comands |
 | `bu` | `brew upgrade` | Upgrades outdated packages |
