@@ -6,6 +6,8 @@
 * Remake mapping directory and keymapping 
 * Proper install guide
 
+![Startup](https://github.com/Roiqk7/dotfiles/blob/main/assets/nvimStartup.png?raw=true)
+
 ## Table of Contents
 * [Introduction](#Introduction)
 * [Prerequisites](#Prerequisites)
@@ -28,8 +30,6 @@
 
 # Introduction
 This configuration is aimed at C/C++/Rust/Lua development in Neovim on MacOS. That being said, the purpose of this repository is to help you get started. You are encouraged to change it to your liking, and I designed it with that in mind.
-
-![Startup](https://github.com/Roiqk7/dotfiles/blob/main/assets/nvimStartup.png?raw=true)
 
 # Prerequisites
 * [iTerm2](https://iterm2.com)
