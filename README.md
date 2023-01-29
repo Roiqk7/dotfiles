@@ -21,13 +21,13 @@ This configuration is aimed at C/C++/Rust/Lua development in Neovim on MacOS. Th
   * [Installation](#Instalation)
   * [Configuration](#Configuration)
   * [Commands](#Commands)
-  * [Keybinding](#Key)
+  * [Keybinding](#Key-binding)
 * [Neovim](#Neovim)
   * [Steps](#Steps)
   * [Installation](#Instalation)
   * [Plugins](#Plugins)
-  * [Keybinding](#Key)
-  * [Recommended read](#Recommended)
+  * [Keybinding](#Key-binding)
+  * [Recommended read](#Recommended-read)
 * [Troubleshooting](#Troubleshooting)
 
 # Prerequisites
