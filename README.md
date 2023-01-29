@@ -25,7 +25,9 @@ This configuration is aimed at C/C++/Rust/Lua development in Neovim on MacOS. Th
 * [NerdFonts](https://github.com/ryanoasis/nerd-fonts#--)
 * [Colorls](https://github.com/athityakumar/colorls)
 
-Follow [this quick tutorial](https://gist.github.com/GLMeece/4b51037daa0d6b83256f80b560246f38) to get everything you need for the full experience. Or simply go through the plugins and follow their installation guide.
+Follow [this quick tutorial](https://gist.github.com/GLMeece/4b51037daa0d6b83256f80b560246f38) to get everything you need for the full experience. 
+
+Alternatively, go through the plugins one by one and follow their installation guide.
 
 # Zsh
 If you followed [prerequisites](#Prerequisites) section you should have most of the stuff done already. Now we just take it one step further. For a powerful zsh setup, read [this article](https://dev.to/abdfnx/oh-my-zsh-powerlevel10k-cool-terminal-1no0) and then check my `.zshrc` file.
