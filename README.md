@@ -30,7 +30,7 @@ Follow [this quick tutorial](https://gist.github.com/GLMeece/4b51037daa0d6b83256
 If you followed [prerequisites](#Prerequisites) section you should have most of the stuff done already. Now we just take it one step further. For a powerful zsh setup, read [this article](https://dev.to/abdfnx/oh-my-zsh-powerlevel10k-cool-terminal-1no0) and then check my `.zshrc` file.
 
 ## Plugins
-You can find plugins I use in the `.zshrc` file. There is ```plugins =( ... )``` with all my plugins.
+You can find plugins I use in the `.zshrc` file (except for [colorls](https://github.com/athityakumar/colorls) which needs to be installed on it's own). There is ```plugins =( ... )``` with all my plugins.
 
 <details>
   <summary>Plugins list</summary>
@@ -63,7 +63,7 @@ Tip: I recommend setting up alias for quick navigation to your work directory.
 | `x` | `exit` | Leave current session |
 | **Maintainance** | | Maintain this configuration with ease |
 | `u_colorls` | `gem update colorls` | Updates [colorls](https://github.com/athityakumar/colorls) |
-| `u_omz` | `omz update` | Updates Oh-my-Zsh |
+| `u_omz` | `omz update` | Updates [oh My ZSH!](https://ohmyz.sh) |
 | `update` | `bubu && u_colorls && u_omz` | Runs all necessary update commands |
 | **Filesystem** | | Move faster across files |
 | `~` | `cd ~/` | Move to home directory |
