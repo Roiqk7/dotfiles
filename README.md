@@ -278,7 +278,7 @@ Here are some resources you can use to master this configuration. Note that all 
 |---|---|
 | [surround.vim](https://github.com/tpope/vim-surround) | Master the art of parentheses, brackets, quotes, XML tags, and more |
 
-# Toubleshooting
+# Troubleshooting
 
 ## Too many files open
 If you get this error message after running `:PackerSync` then go into a terminal and enter this piece of code: `ulimit -n 10240`. Note that this is not a permanent solution. It will increase the maximum number of files just for the current session.
