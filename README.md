@@ -18,13 +18,13 @@ This configuration is aimed at C/C++/Rust/Lua development in Neovim on MacOS. Th
   * [Aliases](#Aliases)
 * [Tmux](#Tmux)
   * [Steps](#Steps)
-  * [Instalation](#Instalation)
+  * [Installation](#Instalation)
   * [Configuration](#Configuration)
   * [Commands](#Commands)
   * [Keybinding](#Key)
 * [Neovim](#Neovim)
   * [Steps](#Steps)
-  * [Instalation](#Instalation)
+  * [Installation](#Instalation)
   * [Plugins](#Plugins)
   * [Keybinding](#Key)
   * [Recommended read](#Recommended)
@@ -114,7 +114,7 @@ Tip: I recommend setting up alias for quick navigation to your work directory.
 2. Place the `.tmux.conf` file in your root directory (`~/`)
 3. Open a terminal and run `tmux source ~/.tmux.conf` to reload the configuration file.
 
-## Instalation
+## Installation
 Follow the tmux [installation guide](https://github.com/tmux/tmux/wiki/Installing) to install it properly.
 
 ## Configuration
