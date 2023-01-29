@@ -56,7 +56,7 @@ Note: Don't forget to add `source ~/.config/aliases.zsh` into your `.zshrc`.
 
 Tip: I recommend setting up alias for quick navigation to your work directory.
 
-### Custom commands
+### Custom aliases
 | Alias | Command | Desription |
 |---|---|---|
 | **General** | | Practical commands |
