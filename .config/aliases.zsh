@@ -18,6 +18,7 @@ alias .zshrc="nvim ~/.zshrc"
 alias aliases="nvim ~/.config/aliases.zsh"
 alias neovim="nvim ~/.config/nvim/init.lua"
 alias .tmux.conf="nvim ~/.tmux.conf"
+alias .p10k="nvim ~/.p10k.zsh"
 alias work=""
 
 # brew aliases
