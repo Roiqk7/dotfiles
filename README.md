@@ -26,7 +26,7 @@ This configuration is aimed at C/C++/Rust/Lua development in Neovim on MacOS. Th
   * [Steps](#Steps)
   * [Installation](#nvim_installation)
   * [Plugins](#nvim_plugins)
-  * [Keybinding](#Key-binding)
+  * [Keybinding](#nvim_keybinding)
   * [Recommended read](#Recommended-read)
 * [Troubleshooting](#Troubleshooting)
 
