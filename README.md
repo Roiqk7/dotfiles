@@ -23,14 +23,15 @@ This configuration is aimed at C/C++/Rust/Lua development in Neovim on MacOS. Th
 * [oh My ZSH!](https://ohmyz.sh)
 * [Powerlevel10k](https://github.com/romkatv/powerlevel10k)
 * [NerdFonts](https://github.com/ryanoasis/nerd-fonts#--)
+* [Colorls](https://github.com/athityakumar/colorls)
 
-Follow [this quick tutorial](https://gist.github.com/GLMeece/4b51037daa0d6b83256f80b560246f38) to get everything you need for the full experience.
+Follow [this quick tutorial](https://gist.github.com/GLMeece/4b51037daa0d6b83256f80b560246f38) to get everything you need for the full experience. Or simply go through the plugins and follow their installation guide.
 
 # Zsh
 If you followed [prerequisites](#Prerequisites) section you should have most of the stuff done already. Now we just take it one step further. For a powerful zsh setup, read [this article](https://dev.to/abdfnx/oh-my-zsh-powerlevel10k-cool-terminal-1no0) and then check my `.zshrc` file.
 
 ## Plugins
-You can find plugins I use in the `.zshrc` file (except for [colorls](https://github.com/athityakumar/colorls) which needs to be installed on it's own). There is ```plugins =( ... )``` with all my plugins.
+You can find plugins I use in the `.zshrc` file. There is ```plugins =( ... )``` with all my plugins.
 
 <details>
   <summary>Plugins list</summary>
@@ -38,7 +39,6 @@ You can find plugins I use in the `.zshrc` file (except for [colorls](https://gi
   | Name | Description |
   |---|---|
   | [Brew](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/brew) | Adds aliases for common brew commands |
-  | [Colorls](https://github.com/athityakumar/colorls) | Beautiful `ls` and more |
   | [Git](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git) | Adds aliases for common git commands |
   | [MacOS](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/macos) | Utilities for macOS system |
   | [Tmux](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/tmux) | Aliases for common tmux commands |
