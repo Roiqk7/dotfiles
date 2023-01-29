@@ -1,11 +1,13 @@
 # Under Construction - Changing every day
 **TODO:** 
 * ERROR: Lsp and few other plugins behave weirdly
+* safe import for each plugin in plugrc
 * C++ (use C++17), Rust, Lua 
 * Individual plugin check and setup
 * Remove unused plugins
 * Remake mapping directory and keymapping 
 * Proper install guide
+* Update plugins list
 
 ![Startup](https://github.com/Roiqk7/dotfiles/blob/main/assets/nvimStartup.png?raw=true)
 
