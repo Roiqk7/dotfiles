@@ -72,7 +72,7 @@ Tip: I recommend setting up alias for quick navigation to your work directory.
 | `...` | `cd ../..` | Move up 2 directories |
 | `....` | `cd ../../..` | Move up 3 directories |
 | `.....` | `cd ../../../..` | Move up 4 directories |
-| `ls` | `colorls` | Beautiful ls |
+| `ls` | `colorls` | Beautiful file listing |
 | `tree` | `colorls --tree=3 --dark` | File tree |
 | `detail` | `colorls -lA --sd --dark` | Detailed info about files |
 | **Shortcuts** | | Fast navigation |
