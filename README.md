@@ -1,7 +1,6 @@
 # Under Construction - Changing every day
 **TODO:** 
 * ERROR: Lsp and few other plugins behave weirdly
-* safe import for each plugin in plugrc
 * C++ (use C++17), Rust, Lua 
 * Individual plugin check and setup
 * Remove unused plugins
