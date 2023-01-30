@@ -2,16 +2,24 @@
 alias r="source ~/.zshrc"
 alias c="clear"
 alias x="exit"
-alias reload="r && bubu"
+alias u="bubu && maintain"
 
-# filesystem aliases
+# maintenance
+alias u_colorls="gem update colorls"
+alias u_omz="omz update"
+alias maintain="u_colorls && u_omz"
+
+# file system aliases
 alias ~="cd ~/"
 alias .="open ."
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
-alias tree="colorls --tree --dark"
+alias ls="colorls"
+alias tree="colorls --tree=3 --dark"
+alias utree="colorls --tree=10 --dark"
+alias detail="colorls -lA --sd --dark"
 
 # shortcuts
 alias .zshrc="nvim ~/.zshrc"
