@@ -17,8 +17,8 @@ alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
 alias ls="colorls"
-alias tree="colorls --tree=3 --dark"
-alias utree="colorls --tree=10 --dark"
+alias tree="colorls --tree=3 --sd --dark"
+alias utree="colorls --tree=10 --sd --dark"
 alias detail="colorls -lA --sd --dark"
 
 # shortcuts
