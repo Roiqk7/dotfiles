@@ -281,6 +281,7 @@ Here are some resources you can use to master this configuration. Note that all 
 | Name | Description |
 |---|---|
 | [surround.vim](https://github.com/tpope/vim-surround) | Master the art of parentheses, brackets, quotes, XML tags, and more |
+| [cooment.nvim](https://github.com/numToStr/Comment.nvim) | Supper easy way to comment out code etc. |
 
 # Troubleshooting
 
