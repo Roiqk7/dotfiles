@@ -91,8 +91,8 @@ Tip: I recommend setting up alias for quick navigation to your work directory.
 | `....` | `cd ../../..` | Move up 3 directories |
 | `.....` | `cd ../../../..` | Move up 4 directories |
 | `ls` | `colorls` | Beautiful file listing |
-| `tree` | `colorls --tree=3 --dark` | File tree |
-| `utree` | `colorls --tree=10 --dark` | Unlimited file tree | 
+| `tree` | `colorls --tree=3 --sd --dark` | File tree |
+| `utree` | `colorls --tree=10 --sd --dark` | Unlimited file tree | 
 | `detail` | `colorls -lA --sd --dark` | Detailed info about files |
 | **Shortcuts** | | Fast navigation |
 | `.zshrc` | `nvim ~/.zshrc` | Opens `.zshrc` in neovim |
