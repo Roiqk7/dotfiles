@@ -1,6 +1,5 @@
 # Comming soon
 **TODO:** 
-* ERROR: Lsp diagnoses too often, small file limit???
 * C++ (use C++17), Rust, Lua 
 * Individual plugin check and setup
 * Remove unused plugins
