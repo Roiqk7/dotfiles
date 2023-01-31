@@ -1,6 +1,6 @@
 # Comming soon
 **TODO:** 
-* C++ (use C++17), Rust, Lua 
+* ERROR: C++ highlight
 * Individual plugin check and setup
 * Remove unused plugins
 * Remake mapping directory and keymapping 
