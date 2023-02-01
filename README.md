@@ -1,8 +1,6 @@
 # Comming soon
 **TODO:** 
 * ERROR: C++ highlight
-* Individual plugin check and setup
-* Remove unused plugins
 * Remake mapping directory and keymapping 
 * Proper install guide
 * Update plugins list
