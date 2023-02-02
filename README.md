@@ -124,6 +124,7 @@ For these commands to work you need to have my [zsh](#zsh) configuration and hav
 
 | Commands | Description |
 |---|---|
+| `t` | Opens tmux |
 | `ts <name>` | Create new session with name |
 | `ta <name>` | Come back to session |
 | `tl` | List of sessions |
