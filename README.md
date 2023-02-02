@@ -170,70 +170,53 @@ Here is a complete list of all plugins. Special thanks to all of the authors and
   | [Plenary](https://github.com/nvim-lua/plenary.nvim) | Used by plugins |
   | **Theme** | Plugins affecting visuals |
   | [Onedark](https://github.com/navarasu/onedark.nvim) | Awesome theme |
-  | [Vim Nightfly Guicolors](https://github.com/bluz71/vim-nightfly-colors) | Theme |
-  | [Tender](https://github.com/jacoborus/tender.vim) | Theme |
-  | [Melange](https://github.com/savq/melange-nvim) | Theme inspired by Monokai |
-  | [Catppuccin](https://github.com/savq/melange-nvim) | Theme |
   | [Startup](https://github.com/startup-nvim/startup.nvim) | Customizable startup screen |
   | **Essential** | Add functionality |
   | [Surround](https://github.com/tpope/vim-surround) | Master parentheses, brackets, quotes, XML tags, and more |
-  | [Replace With Register](https://github.com/inkarkat/vim-ReplaceWithRegister) | Better replace mechanics |
   | [Comment](https://github.com/numToStr/Comment.nvim) | Better comments |
   | [Vim Tmux Navigator](https://github.com/christoomey/vim-tmux-navigator) | Navigate seamlessly between vim and tmux |
-  | [Vim Maximizer](https://github.com/szw/vim-maximizer) | Maximize vim windows |
   | [Nvim Tree](https://github.com/nvim-tree/nvim-tree.lua) | File explorer |
   | [Vim Dev Icons](https://github.com/ryanoasis/vim-devicons) | Adds icons for plugins |
   | [Lua line](https://github.com/nvim-lualine/lualine.nvim) | Adds neovim status line |
   | [Telescope](https://github.com/nvim-telescope/telescope.nvim) | Finder |
-  | [Grammarous](https://github.com/rhysd/vim-grammarous) | Grammar checker |
-  | [Open Browser](https://github.com/tyru/open-browser.vim) | Lets you open url |
-  | [Symbols Outline](https://github.com/simrat39/symbols-outline.nvim) | Tree like view for symbols |
   | [Todo Comments](https://github.com/folke/todo-comments.nvim) | Add todo comments |
   | [Sad](https://github.com/ray-x/sad.nvim) | Find and replace |
-  | [Navigator](https://github.com/numToStr/Navigator.nvim) | Navigate easily between neovim and multiplexer |
-  | [Neoclip](https://github.com/matveyt/neoclip) | Clipboard manager |
   | [Impatient](https://github.com/lewis6991/impatient.nvim) | Speed up startup time |
   | [Neorg](https://github.com/nvim-neorg/neorg) | Organizer |
+  | [Which key](https://github.com/folke/which-key.nvim) | Shows possible key bindings |
   | [Bufferline](https://github.com/akinsho/bufferline.nvim) | Shameless attempt to emulate the aesthetics of GUI text editors |
-  | **Languages** | LSP, language specific plugins |
-  | [Rust tools](https://github.com/simrat39/rust-tools.nvim) | Better rust experience |
-  | [Cpp Modern](https://github.com/bfrg/vim-cpp-modern) | Better C/C++ experience |
-  | [Deoplete clang](https://github.com/deoplete-plugins/deoplete-clang) | Better C/C++ experience |
+  | **Languages** | Language specific plugins |
   | [Clangd Extensions](https://github.com/p00f/clangd_extensions.nvim) | Better C/C++ experience |
-  | [Cpp Enhanced Highlight](https://github.com/octol/vim-cpp-enhanced-highlight) | Highlighting for C++ |
-  | [Popfix](https://github.com/RishabhRD/popfix) | Allows you to write UI for plugins easily |
-  | [Nvim Lsp Utils](https://github.com/RishabhRD/nvim-lsputils) | Better LSP |
-  | [Lsp Status](https://github.com/nvim-lua/lsp-status.nvim) | Helps to generate status line |
-  | [LSP Setup](https://github.com/junnplus/lsp-setup.nvim) | Wrapper for [LSP Config](https://github.com/neovim/nvim-lspconfig) and [mason-lspconfig](https://github.com/williamboman/mason-lspconfig.nvim) |
+  | [Neodev](https://github.com/folke/neodev.nvim) | Better Lua experience |
+  | [Rust Tools](https://github.com/simrat39/rust-tools.nvim) | Better Rust experience |
+  | **LSP** | Lsp related |
+  | [LSP Setup](https://github.com/junnplus/lsp-setup.nvim) | Wrapper for [LSP Config](https://github.com/neovim/nvim-lspconfig) and [Mason-lspconfig](https://github.com/williamboman/mason-lspconfig.nvim) |
   | [LSP Config](https://github.com/neovim/nvim-lspconfig) | [Configs](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md) for the [neovim LSP client](https://neovim.io/doc/user/lsp.html) |
+  |[Mason](https://github.com/williamboman/mason.nvim) | Vital for LSP |
+  | [Mason-lspconfig](https://github.com/williamboman/mason-lspconfig.nvim) | Vital for [Mason](https://github.com/williamboman/mason.nvim) |
  | [Nvim Cmp](https://github.com/hrsh7th/nvim-cmp) | Completion engine for neovim |
  | [Cmp Nvim LSP](https://github.com/hrsh7th/cmp-nvim-lsp) | Source for neovim's built-in language server client |
  | [Lua Snip](https://github.com/L3MON4D3/LuaSnip) | Snippets for Lua |
  | [Cmp Lua Snip](https://github.com/saadparwaiz1/cmp_luasnip) | [Lua Snip](https://github.com/L3MON4D3/LuaSnip) completion source for [Nvim Cmp](https://github.com/hrsh7th/nvim-cmp) |
- | [Nvim Lsp Installer](https://github.com/williamboman/nvim-lsp-installer) | Installs Lsp servers |
- | [Friendly Snippets](https://github.com/sar/friendly-snippets.nvim) | Adds snippets for several languages |
  | [LSP Kind](https://github.com/onsails/lspkind.nvim) | Adds VS code like pictograms |
  | [LSP Fuzzy](https://github.com/ojroques/nvim-lspfuzzy) | Makes neovim LSP use [FZF](https://github.com/junegunn/fzf) |
  | [LSP Signature](https://github.com/ray-x/lsp_signature.nvim) | Show function signature when you type |
- | [COQ](https://github.com/ms-jpq/coq_nvim) | Autocompletion |
- | [Mason](https://github.com/williamboman/mason.nvim) | Install and manage LSP servers |
  | [DAP](https://github.com/mfussenegger/nvim-dap) | Debugging |
  | [DAP UI](https://github.com/rcarriga/nvim-dap-ui) | UI for DAP |
  | [DAP Virtual Text](https://github.com/theHamsta/nvim-dap-virtual-text) | Adds virtual text support to [DAP](https://github.com/mfussenegger/nvim-dap) |
- | [Cortex debug](https://github.com/Marus/cortex-debug) | Debugger for C/C++/Rust |
- | [Which key](https://github.com/folke/which-key.nvim) | Shows possible key bindings |
  | [Trouble](https://github.com/folke/trouble.nvim) | Pretty list for diagnostics, definitions, etc. |
  | [Null-ls](https://github.com/jose-elias-alvarez/null-ls.nvim) | Inject LSP diagnostics, code actions, etc. |
  | [Mason Null-ls](https://github.com/jay-babu/mason-null-ls.nvim) | Bridges [Mason](https://github.com/williamboman/mason.nvim) and [Null-ls](https://github.com/jose-elias-alvarez/null-ls.nvim) |
  | [Treesitter](https://github.com/nvim-treesitter/nvim-treesitter) | Highlighting |
  | [LSP Saga](https://github.com/glepnir/lspsaga.nvim) | Powerfull LSP UI plugin |
  | [Fidget](https://github.com/j-hui/fidget.nvim) | LSP progress handler |
+ | [LSP Colors](https://github.com/folke/lsp-colors.nvim) | Adds colors for LSP |
+ | [LSP Kind](https://github.com/onsails/lspkind.nvim) | Nicer LSP |
+ | [Lsp status](https://github.com/nvim-lua/lsp-status.nvim) | Status of LSP |
  | **Esthetics** | Style guide, indentation, trailing spaces etc. |
- | [Editor Config](https://github.com/gpanders/editorconfig.nvim) | Style guide helper |
- | [Indent-o-matic](https://github.com/Darazaki/indent-o-matic) | Automatic indentation |
+ | [Guess indent](https://github.com/NMAC427/guess-indent.nvim) | Formats indentation |
  | [Whitespace](https://github.com/johnfrankmorgan/whitespace.nvim) | Remove trailing spaces |
  | [Autopairs](https://github.com/windwp/nvim-autopairs) | Automatically close parens, brackets, quotes, etc. |
- | [LSP Colors](https://github.com/folke/lsp-colors.nvim) | Adds colors for LSP |
  | [Custom Diagnostic Highlight](https://github.com/Kasama/nvim-custom-diagnostic-highlight) | Better LSP Highlight |
  | [Dressing](https://github.com/stevearc/dressing.nvim) | Better UI |
  | [Git Signs](https://github.com/lewis6991/gitsigns.nvim) | Git decorations |
