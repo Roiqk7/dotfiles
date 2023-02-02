@@ -67,17 +67,16 @@ Tip: I recommend setting up alias for quick navigation to your work directory.
 
 ## Structure
 ```
-  ~/.config/nvim/
- │  └────      lua/
- │  │  └────      editor/
- │  │  └────      mapping/
- │  │  └────      plugrc/
- │  │  └────      ui/
- │  │  ├────      plugins.lua
- │  │  └────      utils.lua
- │  └────      plugin/
- │  │  └────      packer_compiled.lua
- │  └────      init.lua
+📂  ~/.config/nvim/
+   └────    📂  lua/
+   │  └────    📂  editor/
+   │  └────    📂  mapping/
+   │  └────    📂  plugrc/
+   │  │  └────    📂  lsp/
+   │  └────    📂  ui/
+   │  ├────    📂  plugins.lua
+   │  └────    📂  utils.lua
+   └────    📂  init.lua
 ```
 
 ## Steps:
