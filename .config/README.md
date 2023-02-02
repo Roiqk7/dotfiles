@@ -64,6 +64,22 @@ Tip: I recommend setting up alias for quick navigation to your work directory.
 </details>
 
 # Neovim
+
+## Structure
+```
+  ~/.config/nvim/
+ │  └────      lua/
+ │  │  └────      editor/
+ │  │  └────      mapping/
+ │  │  └────      plugrc/
+ │  │  └────      ui/
+ │  │  ├────      plugins.lua
+ │  │  └────      utils.lua
+ │  └────      plugin/
+ │  │  └────      packer_compiled.lua
+ │  └────      init.lua
+```
+
 ## Steps:
 1. Follow [official installation guide](#nvim_installation) to get neovim
 
