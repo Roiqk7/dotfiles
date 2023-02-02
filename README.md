@@ -108,7 +108,7 @@ Tip: I recommend setting up alias for quick navigation to your work directory.
  
 # Tmux 
 ## Steps:
-1. Install tmux
+1. [Install](#tmux_installation) tmux
 2. Place the `.tmux.conf` file in your root directory (`~/`)
 3. Open a terminal and run `tmux source ~/.tmux.conf` to reload the configuration file.
 
