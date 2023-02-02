@@ -9,7 +9,7 @@ Note: Don't forget to add `source ~/.config/aliases.zsh` into your `.zshrc`.
 Tip: I recommend setting up alias for quick navigation to your work directory.
 
 <details>
-  <summary>Aliases</summary>
+  <summary>List of all aliases</summary>
 
   | Alias | Command | Desription |
   |---|---|---|
