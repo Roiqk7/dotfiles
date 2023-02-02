@@ -63,9 +63,7 @@ Tip: I recommend setting up alias for quick navigation to your work directory.
 
 # Neovim
 ## Steps:
-1. Install neovim
-2. Put the `nvim` folder into your `.config` directory.
-3. Run :PackerSync
+1. Follow [official installation guide](#nvim_installation) to get neovim
 
 ## Installation <a name="nvim_installation"></a>
 See [this](https://github.com/jdhao/nvim-config/blob/master/docs/README.md) for information on how to install and setup nvim on your platform. 
