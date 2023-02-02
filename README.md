@@ -171,7 +171,7 @@ Here is a complete list of all plugins. Special thanks to all of the authors and
   | [Vim Tmux Navigator](https://github.com/christoomey/vim-tmux-navigator) | Navigate seamlessly between vim and tmux |
   | [Nvim Tree](https://github.com/nvim-tree/nvim-tree.lua) | File explorer |
   | [Vim Dev Icons](https://github.com/ryanoasis/vim-devicons) | Adds icons for plugins |
-  | [Lua line](https://github.com/nvim-lualine/lualine.nvim) | Adds neovim status line |
+  | [Lualine](https://github.com/nvim-lualine/lualine.nvim) | Adds neovim status line |
   | [Telescope](https://github.com/nvim-telescope/telescope.nvim) | Finder |
   | [Todo Comments](https://github.com/folke/todo-comments.nvim) | Add todo comments |
   | [Sad](https://github.com/ray-x/sad.nvim) | Find and replace |
