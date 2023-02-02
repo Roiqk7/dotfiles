@@ -1,9 +1,4 @@
 # Comming soon
-**TODO:** 
-* ERROR: C++ highlight
-* Remake mapping directory and keymapping 
-* Proper install guide
-* Update plugins list
 
 ![Startup](https://github.com/Roiqk7/dotfiles/blob/main/assets/nvimStartup.png?raw=true)
 
@@ -267,3 +262,8 @@ Here are some resources you can use to master this configuration. Note that all 
 
 ## Too many files open
 If you get this error message after running `:PackerSync` then go into a terminal and enter this piece of code: `ulimit -n 10240`. Note that this is not a permanent solution. It will increase the maximum number of files just for the current session.
+
+# TODO
+* ERROR: C++ highlight
+* Remake mapping directory and keymapping 
+* Proper install guide for nvim
