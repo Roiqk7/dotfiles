@@ -8,6 +8,8 @@
   * [Recommended read](#Recommended-read)
 * [Troubleshooting](#Troubleshooting)
 
+![Startup](https://github.com/Roiqk7/dotfiles/blob/main/assets/nvimStartup.png?raw=true)
+
 ## Aliases
 The `aliases.zsh` file, contains my personal configuration. Plugins add a whole lot more, and I definitely recommend checking each plugin out.
 
