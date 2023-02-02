@@ -209,7 +209,6 @@ Here is a complete list of all plugins. Special thanks to all of the authors and
  | [Lsp status](https://github.com/nvim-lua/lsp-status.nvim) | Status of LSP |
  | **Esthetics** | Style guide, indentation, trailing spaces etc. |
  | [Guess indent](https://github.com/NMAC427/guess-indent.nvim) | Formats indentation |
- | [Whitespace](https://github.com/johnfrankmorgan/whitespace.nvim) | Remove trailing spaces |
  | [Autopairs](https://github.com/windwp/nvim-autopairs) | Automatically close parens, brackets, quotes, etc. |
  | [Custom Diagnostic Highlight](https://github.com/Kasama/nvim-custom-diagnostic-highlight) | Better LSP Highlight |
  | [Dressing](https://github.com/stevearc/dressing.nvim) | Better UI |
