@@ -28,7 +28,7 @@ Tip: I recommend setting up alias for quick navigation to your work directory.
   | **Maintenance** | | Maintain this configuration with ease |
   | `u_colorls` | `gem update colorls` | Updates [colorls](https://github.com/athityakumar/colorls) |
   | `u_omz` | `omz update` | Updates [oh My ZSH!](https://ohmyz.sh) |
-  | `maintain` | `u_colorls && u_omz` | Updates all pluins which are not managed by [brew](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/brew) |
+  | `maintain` | `u_colorls && u_omz` | Updates all plugins which are not managed by [brew](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/brew) |
   | **Filesystem** | | Move faster across files |
   | `~` | `cd ~/` | Move to home directory |
   | `.` | `Open .` | Opens current directory |
