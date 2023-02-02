@@ -74,8 +74,8 @@ Tip: I recommend setting up alias for quick navigation to your work directory.
    │  └────    📂  plugrc/
    │  │  └────    📂  lsp/
    │  └────    📂  ui/
-   │  ├────    📂  plugins.lua
-   │  └────    📂  utils.lua
+   │  ├────    plugins.lua
+   │  └────    utils.lua
    └────    init.lua
 ```
 
