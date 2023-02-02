@@ -266,3 +266,4 @@ If you get this error message after running `:PackerSync` then go into a termina
 * ERROR: C++ highlight
 * Remake mapping directory and keymapping 
 * Proper install guide for nvim
+* Lazy: lsp saga, telescope, nvim tree, treesitter, language specific stuff
