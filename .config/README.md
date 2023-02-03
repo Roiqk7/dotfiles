@@ -85,7 +85,7 @@ Tip: I recommend setting up alias for quick navigation to your work directory.
 
 `plugrc` contains individual plugins setup.
 
-`UI` settings of neovim appereance.
+`UI` contains settings of neovim appereance.
 
 `plugins` contains [Packer](https://github.com/wbthomason/packer.nvim) with list of all plugins.
 
