@@ -156,7 +156,7 @@ See [this](https://github.com/jdhao/nvim-config/blob/master/docs/README.md) for 
 ## Plugins <a name="nvim_plugins"></a>
 Here is a complete list of all plugins. Special thanks to all of the authors and maintainers. The order is the same as in the `plugins.lua` file.
 
-With around 60 plugins the average load time is just **13 milliseconds**.
+With around 60 plugins the average load time is just **13 milliseconds** *(measured on MacBook M2)*.
 
 <details>
   <summary>Plugins list</summary>
