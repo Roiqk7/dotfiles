@@ -162,6 +162,7 @@ Here is a complete list of all plugins. Special thanks to all of the authors and
   |---|---|
   | [Packer](https://github.com/wbthomason/packer.nvim) | Plugin/Package manager |
   | [Plenary](https://github.com/nvim-lua/plenary.nvim) | Used by plugins |
+  | [Impatient](https://github.com/lewis6991/impatient.nvim) | Speed up startup time |
   | **Theme** | Plugins affecting visuals |
   | [Onedark](https://github.com/navarasu/onedark.nvim) | Awesome theme |
   | [Startup](https://github.com/startup-nvim/startup.nvim) | Customizable startup screen |
@@ -175,7 +176,6 @@ Here is a complete list of all plugins. Special thanks to all of the authors and
   | [Telescope](https://github.com/nvim-telescope/telescope.nvim) | Finder |
   | [Todo Comments](https://github.com/folke/todo-comments.nvim) | Add todo comments |
   | [Sad](https://github.com/ray-x/sad.nvim) | Find and replace |
-  | [Impatient](https://github.com/lewis6991/impatient.nvim) | Speed up startup time |
   | [Neorg](https://github.com/nvim-neorg/neorg) | Organizer |
   | [Which key](https://github.com/folke/which-key.nvim) | Shows possible key bindings |
   | [Bufferline](https://github.com/akinsho/bufferline.nvim) | Shameless attempt to emulate the aesthetics of GUI text editors |
