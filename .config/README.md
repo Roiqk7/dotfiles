@@ -79,6 +79,21 @@ Tip: I recommend setting up alias for quick navigation to your work directory.
    └────    init.lua
 ```
 
+`editor` contains neovim editor configuration.
+
+`mapping` contains all key bindings.
+
+`plugrc` contains individual plugins setup.
+
+`UI` settings of neovim appereance.
+
+`plugins` contains [Packer](https://github.com/wbthomason/packer.nvim) with list of all plugins.
+
+`utils.lua` contains handy reusable functions.
+
+
+
+
 ## Steps:
 1. Follow [official installation guide](#nvim_installation) to get neovim
 
@@ -87,6 +102,9 @@ See [this](https://github.com/jdhao/nvim-config/blob/master/docs/README.md) for 
 
 ## Plugins <a name="nvim_plugins"></a>
 Here is a complete list of all plugins. Special thanks to all of the authors and maintainers. The order is the same as in the `plugins.lua` file.
+
+With around 60 plugins the average load time is just **13 milliseconds** *(measured on MacBook M2)*.
+
 <details>
   <summary>Plugins list</summary>
  
