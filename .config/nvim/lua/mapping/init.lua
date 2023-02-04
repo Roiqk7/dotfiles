@@ -1,7 +1,0 @@
-require("mapping.editor")
-require("mapping.lspconfig")
-require("mapping.lspsaga")
-require("mapping.movement")
-require("mapping.plugin")
-require("mapping.terminal")
-require("mapping.whichkey")
