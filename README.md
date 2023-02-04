@@ -68,9 +68,10 @@ Tip: I recommend setting up alias for quick navigation to your work directory.
 | Alias | Command | Desription |
 |---|---|---|
 | **General** | | Practical commands |
-| `r` | `source ~/.zshrc` | Reload zsh configuration |
 | `c` | `clear` | Clear your terminal |
 | `x` | `exit` | Leave current session |
+| `n` | `nvim` | Open neovim |
+| `r` | `source ~/.zshrc` | Reload zsh configuration |
 | `u` | `bubu && maintain` | Runs all necessary update commands |
 | **Maintenance** | | Maintain this configuration with ease |
 | `u_colorls` | `gem update colorls` | Updates [colorls](https://github.com/athityakumar/colorls) |
