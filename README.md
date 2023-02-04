@@ -280,5 +280,4 @@ If you get this error message after running `:PackerSync` then go into a termina
 
 # TODO
 * ERROR: highlight doesn't work for user defined objects
-* Remake mapping directory and keymapping 
 * Proper install guide for nvim
