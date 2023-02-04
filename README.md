@@ -224,32 +224,47 @@ With around 60 plugins the average load time is just **13 milliseconds** *(measu
 
 | Shortcut | Mode | Description |
 |---|---|---|
+| **General** | | |
 | `jk` | Insert | Enter normal mode |
 | `<leader>su` | Normal | Return to Startup screen |
-| `<leader>ff` | Normal | Find file in current directory |
-| `<leader>fs` | Normal | Find string in current directory|
-| `<leader>ftd` | Normal | Search though TODO comments |
-| `<leader>dtd` | Normal | Dislpay all TODO comments |
-| `<leader>ra <old> <new>` | Normal | Replace old with new |
-| `<leader>cm` | Normal | Open clipboard manager |
-| `<leader>rb` | Normal | Recent buffers in current session |
-| `<leader>of` | Normal | Old files |
 | `<leader>r` | Normal | Reload nvim configuration |
 | `<leader>ps` | Normal | Run :PackerSync command |
 | `<leader>tsu` | Normal | Run :TSUpdate command |
-| `<leader>lt` | Normal | See load times of plugins |
+| `<leader>lt` | Normal | See load times at the startup |
+| `<leader>t` | Any | Opens terminal on next window |
+| **Navigation** | | |
+| `<leader>bc` | Normal | Close current buffer |
+| `<leader>ba` | Normal | Close all buffers |
+| `<leader>bn` | Normal | Move to next buffer |
+| `<leader>bp` | Normal | Move to previous buffer |
+| `<leader>bl` | Normal | Move to last visited buffer |
+| `<leader>b1` | Normal | Move to first buffer |
+| `<leader>b9` | Normal | Move to last buffer |
+| `<leader>sv` | Normal | Split vertically |
+| `<leader>sh` | Normal | Split horizontally |
+| `<leader>sx` | Normal | Close split window |
+| **Search** | | |
+| `<leader>ff` | Normal | Find file in current directory |
+| `<leader>fs` | Normal | Find string in current directory|
+| `<leader>ftd` | Normal | Search though TODO comments |
+| `<leader>rb` | Normal | Recent buffers in current session |
+| `<leader>of` | Normal | Old files |
+| **Useful tools** | | |
+| `<leader>dtd` | Normal | Dislpay all TODO comments |
+| `<leader>rn` | Normal | Project wide find and replace |
 | `<leader>gc` | Normal | Toggle grammar check |
-| `<leader>ca` | Normal | Code actions |
-| `<leader>o` | Normal | Toggle outline |
+| **LSP** | | |
 | `<leader>ld` | Normal | Show line diagnostics |
 | `<leader>bd` | Normal | Show buffer diagnostics |
 | `<leader>pd` | Normal | Peek definition in float window |
+| `<leader>gr` | Normal | Get references |
+| `<leader>ca` | Normal | Code actions |
+| `<leader>o` | Normal | Toggle outline |
 | `fd` | Normal | Find definition and reference |
 | `gd` | Normal | Go to definition |
-| `B` | Normal | Get bytes ammount, definition |
+| `B` | Normal | Get hover doc with useful informations |
 | `[d` `]d` | Normal | Move between diagnostics |
 | `[e` `]e` | Normal | Jump between errors |
-| `<command>t` | Any | Opens terminal on next window |
 
 ## Recommended read
 Here are some resources you can use to master this configuration. Note that all the plugins mentioned are already installed and configured.
