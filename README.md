@@ -21,6 +21,7 @@
   * [Keybinding](#nvim_keybinding)
   * [Recommended read](#Recommended-read)
 * [Troubleshooting](#Troubleshooting)
+* [Gallery](#Gallery)
 
 # Introduction
 This configuration is aimed at C/C++/Rust/Lua development in Neovim on MacOS. That being said, the purpose of this repository is to help you get started. You are encouraged to change it to your liking, and I designed it with that in mind.
@@ -288,6 +289,10 @@ Here are some resources you can use to master this configuration. Note that all 
 If you get this error message after running `:PackerSync` then go into a terminal and enter this piece of code: `ulimit -n 10240`. Note that this is not a permanent solution. It will increase the maximum number of files just for the current session.
 
 # Gallery
+
+![Startup](https://github.com/Roiqk7/dotfiles/blob/main/assets/Startup.png?raw=true)
+![Zsh](https://github.com/Roiqk7/dotfiles/blob/main/assets/Zsh.png?raw=true)
+![Tree](https://github.com/Roiqk7/dotfiles/blob/main/assets/Tree.png?raw=true)
 
 # TODO
 * ERROR: highlight doesn't work for user defined objects
