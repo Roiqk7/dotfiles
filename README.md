@@ -180,7 +180,6 @@ With around 60 plugins the average load time is just **13 milliseconds** *(measu
   | [Todo Comments](https://github.com/folke/todo-comments.nvim) | Add todo comments |
   | [Sad](https://github.com/ray-x/sad.nvim) | Find and replace |
   | [Neorg](https://github.com/nvim-neorg/neorg) | Organizer |
-  | [Which key](https://github.com/folke/which-key.nvim) | Shows possible key bindings |
   | [Bufferline](https://github.com/akinsho/bufferline.nvim) | Shameless attempt to emulate the aesthetics of GUI text editors |
   | **Languages** | Language specific plugins |
   | [Clangd Extensions](https://github.com/p00f/clangd_extensions.nvim) | Better C/C++ experience |
