@@ -293,5 +293,5 @@ If you get this error message after running `:PackerSync` then go into a termina
 ![Tree](https://github.com/Roiqk7/dotfiles/blob/main/assets/Tree.png?raw=true)
 
 # TODO
-* ERROR: highlight doesn't work for user defined objects
+* ERROR: multiple compilers competing error
 * Proper install guide for nvim
