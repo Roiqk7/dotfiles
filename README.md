@@ -259,11 +259,11 @@ With around 60 plugins the average load time is just **13 milliseconds** *(measu
 | `gd` | Normal, Insert | Go to definition |
 | `[d` `]d` | Normal, Insert | Move between diagnostics |
 | `[e` `]e` | Normal, Insert | Jump between errors |
+| `hd` | Normal, Insert | Get hover doc with useful information |
 | `<leader>bd` | Normal | Show buffer diagnostics |
 | `<leader>gr` | Normal | Get references |
 | `<leader>ca` | Normal | Code actions |
 | `<leader>o` | Normal | Toggle outline |
-| `B` | Normal | Get hover doc with useful informations |
 
 ## Recommended read
 Here are some resources you can use to master this configuration. Note that all the plugins mentioned are already installed and configured.
