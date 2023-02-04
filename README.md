@@ -224,12 +224,16 @@ With around 60 plugins the average load time is just **13 milliseconds** *(measu
 
 | Shortcut | Mode | Description |
 |---|---|---|
-| **General** | | |
+| **Most common** | | |
 | `jk` | Insert | Enter normal mode |
+| `<leader>e` | Normal | Toggle file explorer |
+| `<leader>dtd` | Normal | Dislpay all TODO comments |
+| `<leader>rn` | Normal | Project wide find and replace |
+| `<leader>gc` | Normal | Toggle grammar check |
+| **General** | | |
 | `<leader>su` | Normal | Return to Startup screen |
 | `<leader>r` | Normal | Reload nvim configuration |
 | `<leader>ps` | Normal | Run :PackerSync command |
-| `<leader>tsu` | Normal | Run :TSUpdate command |
 | `<leader>lt` | Normal | See load times at the startup |
 | `<leader>t` | Any | Opens terminal on next window |
 | **Navigation** | | |
@@ -249,22 +253,17 @@ With around 60 plugins the average load time is just **13 milliseconds** *(measu
 | `<leader>ftd` | Normal | Search though TODO comments |
 | `<leader>rb` | Normal | Recent buffers in current session |
 | `<leader>of` | Normal | Old files |
-| **Useful tools** | | |
-| `<leader>dtd` | Normal | Dislpay all TODO comments |
-| `<leader>rn` | Normal | Project wide find and replace |
-| `<leader>gc` | Normal | Toggle grammar check |
 | **LSP** | | |
-| `<leader>ld` | Normal | Show line diagnostics |
+| `pd` | Normal, Insert | Peek definition |
+| `fd` | Normal, Insert | Find definition and references |
+| `gd` | Normal, Insert | Go to definition |
+| `[d` `]d` | Normal, Insert | Move between diagnostics |
+| `[e` `]e` | Normal, Insert | Jump between errors |
 | `<leader>bd` | Normal | Show buffer diagnostics |
-| `<leader>pd` | Normal | Peek definition in float window |
 | `<leader>gr` | Normal | Get references |
 | `<leader>ca` | Normal | Code actions |
 | `<leader>o` | Normal | Toggle outline |
-| `fd` | Normal | Find definition and reference |
-| `gd` | Normal | Go to definition |
 | `B` | Normal | Get hover doc with useful informations |
-| `[d` `]d` | Normal | Move between diagnostics |
-| `[e` `]e` | Normal | Jump between errors |
 
 ## Recommended read
 Here are some resources you can use to master this configuration. Note that all the plugins mentioned are already installed and configured.
