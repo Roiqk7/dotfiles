@@ -37,6 +37,8 @@ Follow [this quick tutorial](https://gist.github.com/GLMeece/4b51037daa0d6b83256
 
 Alternatively, go through the plugins one by one and follow their installation guide.
 
+![Zsh](https://github.com/Roiqk7/dotfiles/blob/main/assets/Zsh.png?raw=true)
+
 # [Zsh](https://zsh.sourceforge.io)
 If you followed [prerequisites](#Prerequisites) section you should have most of the stuff done already. Now we just take it one step further. For a powerful zsh setup, read [this article](https://dev.to/abdfnx/oh-my-zsh-powerlevel10k-cool-terminal-1no0) and then check my `.zshrc` file.
 
