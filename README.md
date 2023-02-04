@@ -37,7 +37,7 @@ Follow [this quick tutorial](https://gist.github.com/GLMeece/4b51037daa0d6b83256
 
 Alternatively, go through the plugins one by one and follow their installation guide.
 
-# Zsh
+# [Zsh](https://zsh.sourceforge.io)
 If you followed [prerequisites](#Prerequisites) section you should have most of the stuff done already. Now we just take it one step further. For a powerful zsh setup, read [this article](https://dev.to/abdfnx/oh-my-zsh-powerlevel10k-cool-terminal-1no0) and then check my `.zshrc` file.
 
 ## Plugins <a name="zsh_plugins"></a>
@@ -107,7 +107,7 @@ Tip: I recommend setting up alias for quick navigation to your work directory.
 | **Git** | Note: [Git](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git) plugin adds a lot more | Common git commands |
 | `gc` | `git clone --recursive` | Clones git repository properly |
  
-# Tmux 
+# [Tmux](https://github.com/tmux/tmux) 
 ## Steps:
 1. [Install](#tmux_installation) tmux
 2. Place the `.tmux.conf` file in your root directory (`~/`)
@@ -119,6 +119,9 @@ Follow the tmux [installation guide](https://github.com/tmux/tmux/wiki/Installin
 ## Configuration
 * If you want your temperature in fahrenheit then in `.tmux.conf` file change `set -g @dracula-show-fahrenheit` to `false`.
 * To further customize your tmux read the [official Dracula theme plugin documentation](https://draculatheme.com/tmux) for more information.
+
+## [Tmex](https://github.com/evnp/tmex)
+You may also like [tmex](https://github.com/evnp/tmex). You will need to install [npm](https://github.com/npm/cli) by running `bi npm` and when that's done run `ni tmex`. [Tmex](https://github.com/evnp/tmex) will let you esily start multi-pane sessions using [tmux](https://github.com/tmux/tmux). I recomend reading the [docs](https://github.com/evnp/tmex) for more info.
 
 ## Commands
 For these commands to work you need to have my [zsh](#zsh) configuration and have [this tmux plugin](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/tmux) and my `aliases.zsh` file setup properly.
@@ -147,7 +150,7 @@ For these commands to work you need to have my [zsh](#zsh) configuration and hav
 | `<prefix>-` | Vertical split |
 | `<prefix>m` | Maximize/Minimize pane |
  
-# Neovim
+# [Neovim](https://neovim.io)
 ## Steps:
 1. Follow [official installation guide](#nvim_installation) to get neovim
 
