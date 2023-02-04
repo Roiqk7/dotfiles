@@ -287,6 +287,8 @@ Here are some resources you can use to master this configuration. Note that all 
 ## Too many files open
 If you get this error message after running `:PackerSync` then go into a terminal and enter this piece of code: `ulimit -n 10240`. Note that this is not a permanent solution. It will increase the maximum number of files just for the current session.
 
+# Gallery
+
 # TODO
 * ERROR: highlight doesn't work for user defined objects
 * Proper install guide for nvim
