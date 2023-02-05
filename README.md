@@ -114,8 +114,8 @@ Tip: I recommend setting up aliases for quick navigation to your work directory.
  
 # [Tmux](https://github.com/tmux/tmux) 
 ## Steps:
-1. [Install](#tmux_installation) tmux
-2. Place the `.tmux.conf` file in your root directory (`~/`)
+1. [Install](#tmux_installation) tmux.
+2. Place the `.tmux.conf` file in your root directory (`~/`).
 3. Open a terminal and run `tmux source ~/.tmux.conf` to reload the configuration file.
 
 ## Installation <a name="tmux_installation"></a>
@@ -184,10 +184,15 @@ For these commands to work, you need to have my [zsh](#zsh) configuration and ha
 `utils.lua` contains handy, reusable functions.
 
 ## Steps:
-1. Follow [official installation guide](#nvim_installation) to get neovim
+1. Run `bi neovim` to install neovim.
+2. Install plugin manager [Packer](https://github.com/wbthomason/packer.nvim#quickstart) on Unix or Linux using this:
+```
+git clone --depth 1 https://github.com/wbthomason/packer.nvim\
+ ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+```
 
 ## Installation <a name="nvim_installation"></a>
-See [this](https://github.com/jdhao/nvim-config/blob/master/docs/README.md) for information on how to install and setup nvim on your platform. 
+See [this](hhttps://github.com/neovim/neovim/wiki/Installing-Neovim#macos--os-x) for information on how to install and setup nvim for MacOS and other platforms. 
 
 ## Plugins <a name="nvim_plugins"></a>
 Here is a complete list of all plugins. Special thanks to all of the authors and maintainers. The order is the same as in the `plugins.lua` file.
