@@ -112,20 +112,21 @@ With around 60 plugins the average load time is just **13 milliseconds** *(measu
   |---|---|
   | [Packer](https://github.com/wbthomason/packer.nvim) | Plugin/Package manager |
   | [Plenary](https://github.com/nvim-lua/plenary.nvim) | Used by plugins |
+  | [Impatient](https://github.com/lewis6991/impatient.nvim) | Speed up startup time |
   | **Theme** | Plugins affecting visuals |
   | [Onedark](https://github.com/navarasu/onedark.nvim) | Awesome theme |
   | [Startup](https://github.com/startup-nvim/startup.nvim) | Customizable startup screen |
   | **Essential** | Add functionality |
   | [Surround](https://github.com/tpope/vim-surround) | Master parentheses, brackets, quotes, XML tags, and more |
   | [Comment](https://github.com/numToStr/Comment.nvim) | Better comments |
+  | [Leap](https://github.com/ggandor/leap.nvim) | Super fast movement |
   | [Vim Tmux Navigator](https://github.com/christoomey/vim-tmux-navigator) | Navigate seamlessly between vim and tmux |
   | [Nvim Tree](https://github.com/nvim-tree/nvim-tree.lua) | File explorer |
   | [Vim Dev Icons](https://github.com/ryanoasis/vim-devicons) | Adds icons for plugins |
-  | [Lua line](https://github.com/nvim-lualine/lualine.nvim) | Adds neovim status line |
+  | [Lualine](https://github.com/nvim-lualine/lualine.nvim) | Adds neovim status line |
   | [Telescope](https://github.com/nvim-telescope/telescope.nvim) | Finder |
   | [Todo Comments](https://github.com/folke/todo-comments.nvim) | Add todo comments |
   | [Sad](https://github.com/ray-x/sad.nvim) | Find and replace |
-  | [Impatient](https://github.com/lewis6991/impatient.nvim) | Speed up startup time |
   | [Neorg](https://github.com/nvim-neorg/neorg) | Organizer |
   | [Bufferline](https://github.com/akinsho/bufferline.nvim) | Shameless attempt to emulate the aesthetics of GUI text editors |
   | **Languages** | Language specific plugins |
@@ -158,7 +159,6 @@ With around 60 plugins the average load time is just **13 milliseconds** *(measu
  | [Lsp status](https://github.com/nvim-lua/lsp-status.nvim) | Status of LSP |
  | **Esthetics** | Style guide, indentation, trailing spaces etc. |
  | [Guess indent](https://github.com/NMAC427/guess-indent.nvim) | Formats indentation |
- | [Whitespace](https://github.com/johnfrankmorgan/whitespace.nvim) | Remove trailing spaces |
  | [Autopairs](https://github.com/windwp/nvim-autopairs) | Automatically close parens, brackets, quotes, etc. |
  | [Custom Diagnostic Highlight](https://github.com/Kasama/nvim-custom-diagnostic-highlight) | Better LSP Highlight |
  | [Dressing](https://github.com/stevearc/dressing.nvim) | Better UI |
