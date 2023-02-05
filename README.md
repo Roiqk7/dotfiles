@@ -176,6 +176,7 @@ With over 60 plugins the average load time **under 9 milliseconds** *(measured o
   | **Essential** | Add functionality |
   | [Surround](https://github.com/tpope/vim-surround) | Master parentheses, brackets, quotes, XML tags, and more |
   | [Comment](https://github.com/numToStr/Comment.nvim) | Better comments |
+  | [Leap](https://github.com/ggandor/leap.nvim) | Super fast movement |
   | [Vim Tmux Navigator](https://github.com/christoomey/vim-tmux-navigator) | Navigate seamlessly between vim and tmux |
   | [Nvim Tree](https://github.com/nvim-tree/nvim-tree.lua) | File explorer |
   | [Vim Dev Icons](https://github.com/ryanoasis/vim-devicons) | Adds icons for plugins |
@@ -273,6 +274,7 @@ Here are some resources you can use to master this configuration. Note that all 
 
 | Name | Description |
 |---|---|
+| [leap](https://github.com/ggandor/leap.nvim) | Move around even faster using this plugin |
 | [surround.vim](https://github.com/tpope/vim-surround) | Master the art of parentheses, brackets, quotes, XML tags, and more |
 | [comment.nvim](https://github.com/numToStr/Comment.nvim) | Supper easy way to comment out code etc. |
 
