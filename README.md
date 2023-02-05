@@ -18,8 +18,8 @@
   * [Plugins](#nvim_plugins)
   * [Keybinding](#nvim_keybinding)
   * [Recommended read](#Recommended-read)
-* [Troubleshooting](#Troubleshooting)
 * [Gallery](#Gallery)
+* [Troubleshooting](#Troubleshooting)
 
 # Introduction
 This configuration is aimed at C/C++/Rust/Lua development in Neovim on MacOS. That being said, the purpose of this repository is to help you get started. You are encouraged to change it to your liking, and I designed it with that in mind.
@@ -281,11 +281,6 @@ Here are some resources you can use to master this configuration. Note that all 
 | [surround.vim](https://github.com/tpope/vim-surround) | Master the art of parentheses, brackets, quotes, XML tags, and more |
 | [comment.nvim](https://github.com/numToStr/Comment.nvim) | Supper easy way to comment out code etc. |
 
-# Troubleshooting
-
-## Too many files open
-If you get this error message after running `:PackerSync` then go into a terminal and enter this piece of code: `ulimit -n 10240`. Note that this is not a permanent solution. It will increase the maximum number of files just for the current session.
-
 # Gallery
 
 ![Startup](https://github.com/Roiqk7/dotfiles/blob/main/assets/Startup.png?raw=true)
@@ -293,6 +288,11 @@ If you get this error message after running `:PackerSync` then go into a termina
 ![Tree](https://github.com/Roiqk7/dotfiles/blob/main/assets/Tree.png?raw=true)
 ![Editor](https://github.com/Roiqk7/dotfiles/blob/main/assets/Editor.png?raw=true)
 ![Telescope](https://github.com/Roiqk7/dotfiles/blob/main/assets/Telescope.png?raw=true)
+
+# Troubleshooting
+
+## Too many files open
+If you get this error message after running `:PackerSync` then go into a terminal and enter this piece of code: `ulimit -n 10240`. Note that this is not a permanent solution. It will increase the maximum number of files just for the current session.
 
 # TODO
 * Proper install guide for nvim
