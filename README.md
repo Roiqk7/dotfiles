@@ -46,7 +46,10 @@ Alternatively, go through the plugins one by one and follow their installation g
 If you followed [prerequisites](#Prerequisites) section you should have most of the stuff done already. Now we just take it one step further. For a powerful zsh setup, read [this article](https://dev.to/abdfnx/oh-my-zsh-powerlevel10k-cool-terminal-1no0) and then check my `.zshrc` file.
 
 ## Plugins <a name="zsh_plugins"></a>
-You can find plugins I use in the `.zshrc` file in ```plugins =( ... )```.
+You can find plugins I use in the `.zshrc` file in 
+```
+plugins =( ... )
+```
 
 | Name | Description |
 |---|---|
@@ -60,7 +63,10 @@ You can find plugins I use in the `.zshrc` file in ```plugins =( ... )```.
 ## Aliases
 The `aliases.zsh` file, located in the `.config` directory, contains my personal configuration. Plugins add a whole lot more, and I definitely recommend checking each plugin out.
 
-Note: Don't forget to add ```source ~/.config/aliases.zsh``` into your `.zshrc`.
+Note: Don't forget to add this into your `.zshrc`. 
+```
+source ~/.config/aliases.zsh
+```
 
 Tip: I recommend setting up aliases for quick navigation to your work directory.
 
@@ -116,13 +122,21 @@ Tip: I recommend setting up aliases for quick navigation to your work directory.
 ## Steps:
 1. [Install](#tmux_installation) tmux.
 2. Place the `.tmux.conf` file in your root directory (`~/`).
-3. Open a terminal and run ```tmux source ~/.tmux.conf``` to reload the configuration file.
+3. Open a terminal and run 
+```
+tmux source ~/.tmux.conf
+``` 
+to reload the configuration file.
 
 ## Installation <a name="tmux_installation"></a>
 Follow the tmux [installation guide](https://github.com/tmux/tmux/wiki/Installing) to install it properly.
 
 ## Configuration
-* If you want your temperature in fahrenheit then in `.tmux.conf` file change ```set -g @dracula-show-fahrenheit``` to `false`.
+* If you want your temperature in fahrenheit then in `.tmux.conf` file change 
+```
+set -g @dracula-show-fahrenheit
+``` 
+to `false`.
 * To further customize your tmux read the [official Dracula theme plugin documentation](https://draculatheme.com/tmux) for more information.
 
 ## [Tmex](https://github.com/evnp/tmex)
@@ -184,7 +198,11 @@ For these commands to work, you need to have my [zsh](#zsh) configuration and ha
 `utils.lua` contains handy, reusable functions.
 
 ## Steps:
-1. Run ```bi neovim``` to install neovim.
+1. Run 
+```
+bi neovim
+``` 
+to install neovim.
 2. Install plugin manager [Packer](https://github.com/wbthomason/packer.nvim#quickstart) on Unix or Linux using this:
 ```
 git clone --depth 1 https://github.com/wbthomason/packer.nvim\
@@ -326,7 +344,15 @@ Here are some resources you can use to master this configuration. Note that all 
 # Troubleshooting
 
 ## Too many files open
-If you get this error message after running ```:PackerSync``` then go into a terminal and enter this piece of code: ```ulimit -n 10240``` Note that this is not a permanent solution. It will increase the maximum number of files just for the current session.
+If you get this error message after running 
+```
+:PackerSync
+``` 
+then go into a terminal and enter this piece of code: 
+```
+ulimit -n 10240
+``` 
+Note that this is not a permanent solution. It will increase the maximum number of files just for the current session.
 
 # TODO
 * Proper install guide for nvim
