@@ -198,11 +198,11 @@ For these commands to work, you need to have my [zsh](#zsh) configuration and ha
 `utils.lua` contains handy, reusable functions.
 
 ## Steps:
-1. Run 
+1. Run this to install neovim.
 ```
 bi neovim
 ``` 
-to install neovim.
+
 2. Install plugin manager [Packer](https://github.com/wbthomason/packer.nvim#quickstart) on Unix or Linux using this:
 ```
 git clone --depth 1 https://github.com/wbthomason/packer.nvim\
