@@ -63,7 +63,7 @@ Tip: I recommend setting up alias for quick navigation to your work directory.
 
 </details>
 
-# Neovim
+# [Neovim](https://neovim.io)
 
 ## Structure
 ```
@@ -79,20 +79,17 @@ Tip: I recommend setting up alias for quick navigation to your work directory.
    └────    init.lua
 ```
 
-`editor` contains neovim editor configuration.
+`editor` contains the neovim editor configuration.
 
 `mapping` contains all key bindings.
 
-`plugrc` contains individual plugins setup.
+`plugrc` contains individual plugin setups.
 
-`UI` contains settings of neovim appereance.
+`UI` contains settings for neovim appearance.
 
-`plugins` contains [Packer](https://github.com/wbthomason/packer.nvim) with list of all plugins.
+`plugins` contains [Packer](https://github.com/wbthomason/packer.nvim) with a list of all plugins.
 
-`utils.lua` contains handy reusable functions.
-
-
-
+`utils.lua` contains handy, reusable functions.
 
 ## Steps:
 1. Follow [official installation guide](#nvim_installation) to get neovim
@@ -103,7 +100,7 @@ See [this](https://github.com/jdhao/nvim-config/blob/master/docs/README.md) for 
 ## Plugins <a name="nvim_plugins"></a>
 Here is a complete list of all plugins. Special thanks to all of the authors and maintainers. The order is the same as in the `plugins.lua` file.
 
-With around 60 plugins the average load time is just **13 milliseconds** *(measured on MacBook M2)*.
+With over 60 plugins, the average load time **under 9 milliseconds** *(measured on a MacBook M2)*.
 
 <details>
   <summary>Plugins list</summary>
@@ -174,7 +171,7 @@ With around 60 plugins the average load time is just **13 milliseconds** *(measu
 | **Most common** | | |
 | `jk` | Insert | Enter normal mode |
 | `<leader>e` | Normal | Toggle file explorer |
-| `<leader>dtd` | Normal | Dislpay all TODO comments |
+| `<leader>dtd` | Normal | Display all TODO comments |
 | `<leader>rn` | Normal | Project wide find and replace |
 | `<leader>gc` | Normal | Toggle grammar check |
 | **General** | | |
@@ -217,6 +214,7 @@ Here are some resources you can use to master this configuration. Note that all 
 
 | Name | Description |
 |---|---|
+| [leap](https://github.com/ggandor/leap.nvim) | Move around even faster using this plugin |
 | [surround.vim](https://github.com/tpope/vim-surround) | Master the art of parentheses, brackets, quotes, XML tags, and more |
 | [comment.nvim](https://github.com/numToStr/Comment.nvim) | Supper easy way to comment out code etc. |
 
