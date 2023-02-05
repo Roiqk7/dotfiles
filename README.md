@@ -25,6 +25,7 @@
 This configuration is aimed at C/C++/Rust/Lua development in Neovim on MacOS. That being said, the purpose of this repository is to help you get started. You are encouraged to change it to your liking, and I designed it with that in mind.
 
 # Prerequisites
+* [Brew](https://brew.sh)
 * [iTerm2](https://iterm2.com)
 * [z-shell](http://zsh.sourceforge.net)
 * [oh My ZSH!](https://ohmyz.sh)
@@ -34,7 +35,11 @@ This configuration is aimed at C/C++/Rust/Lua development in Neovim on MacOS. Th
 
 Follow [this quick tutorial](https://gist.github.com/GLMeece/4b51037daa0d6b83256f80b560246f38) to get everything you need for the full experience. 
 
-Alternatively, go through the plugins one by one and follow their installation guide.
+Alternatively, go through the plugins one by one and follow their installation guides.
+
+**Note1:** I strongly recommend that you install everything using [Brew](https://brew.sh) as it will make maintaining everything way easier.
+
+**Note2:** [Brew](https://brew.sh) is MacOS specific.
 
 # [Zsh](https://zsh.sourceforge.io)
 ![Zsh](https://github.com/Roiqk7/dotfiles/blob/main/assets/Zsh.png?raw=true)
@@ -57,7 +62,7 @@ The `aliases.zsh` file, located in the `.config` directory, contains my personal
 
 Note: Don't forget to add `source ~/.config/aliases.zsh` into your `.zshrc`.
 
-Tip: I recommend setting up alias for quick navigation to your work directory.
+Tip: I recommend setting up aliases for quick navigation to your work directory.
 
 ### Custom aliases
 | Alias | Command | Desription |
@@ -96,7 +101,7 @@ Tip: I recommend setting up alias for quick navigation to your work directory.
 | `bi` | `brew install` | Install package |
 | `bri` | `brew reinstall` | Reinstall package |
 | `bl` | `brew list` | List of brew packages |
-| `bubo` | `brew update && brew outdated` | Update brew and list outdated packages |
+| `bubo` | `brew update && brew outdated` | Update [Brew](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/brew) and list outdated packages |
 | `bubc` | `brew upgrade && brew cleanup` | Upgrade outdated packages and run cleanup |
 | `bubu` | `bubo && bubc` | Runs both commands above |
 | **Git** | Note: [Git](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git) plugin adds a lot more | Common git commands |
@@ -121,10 +126,10 @@ Follow the tmux [installation guide](https://github.com/tmux/tmux/wiki/Installin
 * To further customize your tmux read the [official Dracula theme plugin documentation](https://draculatheme.com/tmux) for more information.
 
 ## [Tmex](https://github.com/evnp/tmex)
-You may also like [tmex](https://github.com/evnp/tmex). You will need to install [npm](https://github.com/npm/cli) by running `bi npm` and when that's done run `ni tmex`. [Tmex](https://github.com/evnp/tmex) will let you esily start multi-pane sessions using [tmux](https://github.com/tmux/tmux). I recomend reading the [docs](https://github.com/evnp/tmex) for more info.
+You may also like [tmex](https://github.com/evnp/tmex). You will need to install [npm](https://github.com/npm/cli) by running `bi npm` and when that's done run `ni tmex`. [Tmex](https://github.com/evnp/tmex) will let you esily start multi-pane sessions using [tmux](https://github.com/tmux/tmux). I recommend reading the [docs](https://github.com/evnp/tmex) for more info.
 
 ## Commands
-For these commands to work you need to have my [zsh](#zsh) configuration and have [this tmux plugin](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/tmux) and my `aliases.zsh` file setup properly.
+For these commands to work, you need to have my [zsh](#zsh) configuration and have [this tmux plugin](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/tmux) and my `aliases.zsh` file setup properly.
 
 | Commands | Description |
 |---|---|
@@ -160,7 +165,7 @@ See [this](https://github.com/jdhao/nvim-config/blob/master/docs/README.md) for 
 ## Plugins <a name="nvim_plugins"></a>
 Here is a complete list of all plugins. Special thanks to all of the authors and maintainers. The order is the same as in the `plugins.lua` file.
 
-With over 60 plugins the average load time **under 9 milliseconds** *(measured on MacBook M2)*.
+With over 60 plugins, the average load time **under 9 milliseconds** *(measured on a MacBook M2)*.
 
 <details>
   <summary>Plugins list</summary>
@@ -231,7 +236,7 @@ With over 60 plugins the average load time **under 9 milliseconds** *(measured o
 | **Most common** | | |
 | `jk` | Insert | Enter normal mode |
 | `<leader>e` | Normal | Toggle file explorer |
-| `<leader>dtd` | Normal | Dislpay all TODO comments |
+| `<leader>dtd` | Normal | Display all TODO comments |
 | `<leader>rn` | Normal | Project wide find and replace |
 | `<leader>gc` | Normal | Toggle grammar check |
 | **General** | | |
