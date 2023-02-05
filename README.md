@@ -122,11 +122,10 @@ Tip: I recommend setting up aliases for quick navigation to your work directory.
 ## Steps:
 1. [Install](#tmux_installation) tmux.
 2. Place the `.tmux.conf` file in your root directory (`~/`).
-3. Open a terminal and run 
+3. Open a terminal and run the code bellow to reload the configuration file.
 ```
 tmux source ~/.tmux.conf
 ``` 
-to reload the configuration file.
 
 ## Installation <a name="tmux_installation"></a>
 Follow the tmux [installation guide](https://github.com/tmux/tmux/wiki/Installing) to install it properly.
