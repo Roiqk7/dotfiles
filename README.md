@@ -41,7 +41,7 @@ Alternatively, go through the plugins one by one and follow their installation g
 If you followed [prerequisites](#Prerequisites) section you should have most of the stuff done already. Now we just take it one step further. For a powerful zsh setup, read [this article](https://dev.to/abdfnx/oh-my-zsh-powerlevel10k-cool-terminal-1no0) and then check my `.zshrc` file.
 
 ## Plugins <a name="zsh_plugins"></a>
-You can find plugins I use in the `.zshrc` file. There is ```plugins =( ... )``` with all my plugins.
+You can find plugins I use in the `.zshrc` file in ```plugins =( ... )```.
 
 | Name | Description |
 |---|---|
