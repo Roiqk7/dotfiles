@@ -43,20 +43,15 @@ If you followed [prerequisites](#Prerequisites) section you should have most of 
 ## Plugins <a name="zsh_plugins"></a>
 You can find plugins I use in the `.zshrc` file. There is ```plugins =( ... )``` with all my plugins.
 
-<details>
-  <summary>Plugins list</summary>
+| Name | Description |
+|---|---|
+| [Brew](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/brew) | Adds aliases for common brew commands |
+| [Git](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git) | Adds aliases for common git commands |
+| [MacOS](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/macos) | Utilities for macOS system |
+| [Tmux](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/tmux) | Aliases for common tmux commands |
+| [Zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) | This is a must have |
+| [Zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) | Does as it says |
   
-  | Name | Description |
-  |---|---|
-  | [Brew](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/brew) | Adds aliases for common brew commands |
-  | [Git](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git) | Adds aliases for common git commands |
-  | [MacOS](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/macos) | Utilities for macOS system |
-  | [Tmux](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/tmux) | Aliases for common tmux commands |
-  | [Zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) | This is a must have |
-  | [Zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) | Does as it says |
-  
-</details>
-
 ## Aliases
 The `aliases.zsh` file, located in the `.config` directory, contains my personal configuration. Plugins add a whole lot more, and I definitely recommend checking each plugin out.
 
