@@ -156,6 +156,33 @@ For these commands to work, you need to have my [zsh](#zsh) configuration and ha
 | `<prefix>m` | Maximize/Minimize pane |
  
 # [Neovim](https://neovim.io)
+
+## Structure
+```
+📂  ~/.config/nvim/
+   └────    📂  lua/
+   │  └────    📂  editor/
+   │  └────    📂  mapping/
+   │  └────    📂  plugrc/
+   │  │  └────    📂  lsp/
+   │  └────    📂  ui/
+   │  ├────    plugins.lua
+   │  └────    utils.lua
+   └────    init.lua
+```
+
+`editor` contains the neovim editor configuration.
+
+`mapping` contains all key bindings.
+
+`plugrc` contains individual plugin setups.
+
+`UI` contains settings for neovim appearance.
+
+`plugins` contains [Packer](https://github.com/wbthomason/packer.nvim) with a list of all plugins.
+
+`utils.lua` contains handy, reusable functions.
+
 ## Steps:
 1. Follow [official installation guide](#nvim_installation) to get neovim
 
