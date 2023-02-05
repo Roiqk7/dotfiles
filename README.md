@@ -177,7 +177,7 @@ For these commands to work, you need to have my [zsh](#zsh) configuration and ha
 
 `plugrc` contains individual plugin setups.
 
-`UI` contains settings for neovim appearance.
+`ui` contains settings for neovim appearance.
 
 `plugins` contains [Packer](https://github.com/wbthomason/packer.nvim) with a list of all plugins.
 
