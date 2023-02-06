@@ -21,6 +21,8 @@ null_ls.setup({
         null_ls.builtins.diagnostics.cppcheck,
         -- Lua
         null_ls.builtins.diagnostics.luacheck,
+        -- Markdown
+        null_ls.builtins.diagnostics.markdownlint,
         -- Zsh
         null_ls.builtins.diagnostics.zsh,
 
@@ -32,6 +34,8 @@ null_ls.setup({
         null_ls.builtins.formatting.lua_format,
         -- Rust
         null_ls.builtins.formatting.rustfmt,
+        -- Markdown
+        null_ls.builtins.formatting.markdownlint,
 
         -- Hover
         null_ls.builtins.hover.dictionary,
