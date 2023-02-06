@@ -1,5 +1,7 @@
 ![Startup](https://github.com/Roiqk7/dotfiles/blob/main/assets/Startup.png?raw=true)
 
+**If you don't care about bs and want straight to the bussiness [then click here.](https://github.com/Roiqk7/dotfiles/blob/main/INSTALLATION.md)**
+
 ## Table of Contents
 * [Introduction](#Introduction)
 * [Prerequisites](#Prerequisites)
@@ -23,8 +25,6 @@
 
 # Introduction
 This configuration is aimed at C/C++/Rust/Lua development in Neovim on MacOS. That being said, the purpose of this repository is to help you get started. You are encouraged to change it to your liking, and I designed it with that in mind.
-
-**If you don't care about bs and want straight to the bussiness [then click here.](https://github.com/Roiqk7/dotfiles/blob/main/INSTALLATION.md)**
 
 **Note:** The `_` in the file/directory names represents `.`
 
