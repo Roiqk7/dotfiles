@@ -40,7 +40,7 @@ alias bl="brew list"
 
 # git
 alias gc="git clone --recursive"
-alias repo="gc https://github.com/Roiqk7/dotfiles.git `~/Desktop`"
+alias repo="gc https://github.com/Roiqk7/dotfiles.git"
 
 # tmex
 alias te="tmex -l"
