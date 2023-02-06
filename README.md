@@ -99,6 +99,7 @@ Tip: I recommend setting up aliases for quick navigation to your work directory.
 | `utree` | `colorls --tree=10 --sd --dark` | Unlimited file tree | 
 | `detail` | `colorls -lA --sd --dark` | Detailed info about files |
 | **Shortcuts** | | Fast navigation |
+| `desk` | `cd ~/Desktop` | move to `desktop` directory
 | `.zshrc` | `nvim ~/.zshrc` | Opens `.zshrc` in neovim |
 | `aliases` | `nvim ~/.config/aliases.zsh` | Opens `aliases.zsh` in neovim |
 | `neovim` | `nvim ~/.config/nvim/init.lua` | Opens `init.lua` in neovim |
@@ -116,6 +117,7 @@ Tip: I recommend setting up aliases for quick navigation to your work directory.
 | `bubu` | `bubo && bubc` | Runs both commands above |
 | **Git** | Note: [Git](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git) plugin adds a lot more | Common git commands |
 | `gc` | `git clone --recursive` | Clones git repository properly |
+| `repo` | `gc https://github.com/Roiqk7/dotfiles.git` | Clones this repository |
 | **Tmex** | | Read [official docs](https://github.com/evnp/tmex) for more info |
 | `te <layout>` | `tmex -l` | After `te` you add your layout |
 | **Npm** | | Read [official docs](https://github.com/npm/cli) for more info |
