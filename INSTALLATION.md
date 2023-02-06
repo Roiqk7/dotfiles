@@ -111,7 +111,11 @@ and open it with
 open .
 ```
 Then go to `dotfiles` into `_config` directory and grab `aliases.zsh` file and move it to your `.config` directory. This will give you access to the aliases.
-16. Open and close your terminal. Agree to install recommended fonts and follow the tutorial
+16. Source `.zshrc`
+```
+source ~/.zshrc
+```
+17. Open and close your terminal. Agree to install recommended fonts and follow the tutorial
 That's it. Now your terminal should be ready to go. That was the hard part from now on it will be quick. Also since we setup the aliases from now on I will use them so you get familiar with them.
 
 # Tmux
