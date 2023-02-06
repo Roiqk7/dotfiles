@@ -72,9 +72,7 @@ startup.setup({
             { " File Browser", "NvimTreeToggle", "<leader>e" },
             { " Recent Files", "Telescope oldfiles", "<leader>of" },
             { " Display TODOs", "TodoQuickFix", "<leader>dtd" },
-            { " Find File", "Telescope find_files", "<leader>ff" },
             { "󰇚 Update", "PackerSync", "<leader>ps" },
-            { " Colorschemes", "Telescope colorscheme", "<leader>cs" },
         },
         highlight = "String",
         default_color = "#FFDEAD",
@@ -88,8 +86,9 @@ startup.setup({
         title = "Footer",
         margin = 5,
         content = {
-            "Configuration by: github.com/Roiqk7",
-            "Art by: Mark Stahlsmith",
+            " Configuration by: github.com/Roiqk7",
+            " Art by: Mark Stahlsmith",
+            " MIT License"
         },
         highlight = "Number",
         default_color = "",
