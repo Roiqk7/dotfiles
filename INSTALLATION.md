@@ -153,6 +153,7 @@ n
 5. Now you will see a lot of errors. Simply click though them and then type `:PackerSync`. This will update your neovim. Then type `:q` to leave and reopen neovim. May be neccesary to again type `:PackerSync` and also wait for other plugins to install what they need so do not close neovim right away.
 
 # Thanks for installing my dotfiles!
+Now I highly recommend reading [this](https://github.com/Roiqk7/dotfiles/blob/main/README.md) for more information.
 
 # Troubleshooting
 
