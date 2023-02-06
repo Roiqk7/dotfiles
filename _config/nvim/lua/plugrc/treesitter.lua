@@ -22,6 +22,7 @@ configs.setup({
         "llvm",
         "lua",
         "json",
+        "markdown",
         "rust",
         "vim",
     },
