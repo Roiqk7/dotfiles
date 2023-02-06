@@ -21,6 +21,9 @@ map({ "n", "v", "o" }, "<leader>gc", "<cmd>set spell!<cr>", { remap = true })
 -- sad: project wide find and replace
 map("n", "<leader>ra", ":Sad ")
 
+-- markdown preview
+map("n", "<leader>mdp", ":Glow<CR>")
+
 -- toggle TSPlayground
 map("n", "<leader>tsp", ":TSPlaygroundToggle<CR>")
 
