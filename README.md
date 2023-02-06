@@ -256,7 +256,7 @@ See [this](hhttps://github.com/neovim/neovim/wiki/Installing-Neovim#macos--os-x)
 ## Plugins <a name="nvim_plugins"></a>
 Here is a complete list of all plugins. Special thanks to all of the authors and maintainers. The order is the same as in the `plugins.lua` file.
 
-With over 60 plugins, the average load time **under 9 milliseconds** *(measured on a MacBook M2)*.
+With over 60 plugins, the average load time is **under 9 milliseconds** *(measured on a MacBook M2)*.
 
 <details>
   <summary>Plugins list</summary>
