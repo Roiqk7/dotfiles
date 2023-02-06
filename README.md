@@ -125,11 +125,11 @@ Tip: I recommend setting up aliases for quick navigation to your work directory.
 1. [Install](#tmux_installation) tmux.
 2. Clone this repository (if you haven't done so already)
 ```
-gc https://github.com/CharlesChiuGit/nvimdots.lua.git
+gc https://github.com/Roiqk7/dotfiles
 ```
 or if you don't use my aliases then by running:
 ```
-git clone https://github.com/CharlesChiuGit/nvimdots.lua.git
+git https://github.com/Roiqk7/dotfiles
 ```
 3. Rename the `_tmux.conf` to `.tmux.conf` and put it in your root directory (`~/`).
 4. Open a terminal and run the code bellow to reload the configuration file.
@@ -211,6 +211,10 @@ For these commands to work, you need to have my [zsh](#zsh) configuration and ha
 ```
 bi neovim
 ``` 
+or if you don't use my aliases then by running:
+```
+brew install neovim
+```
 2. Install plugin manager [Packer](https://github.com/wbthomason/packer.nvim#quickstart) on MacOS or Linux using this:
 ```
 gc https://github.com/wbthomason/packer.nvim\
@@ -218,11 +222,11 @@ gc https://github.com/wbthomason/packer.nvim\
 ```
 3. Clone this repository (if you haven't done so already)
 ```
-gc https://github.com/CharlesChiuGit/nvimdots.lua.git
+gc https://github.com/Roiqk7/dotfiles
 ```
 or if you don't use my aliases then by running:
 ```
-git clone https://github.com/CharlesChiuGit/nvimdots.lua.git
+git https://github.com/Roiqk7/dotfiles
 ```
 4. Go to `downloads/_config` and then move the `nvim` to your `~/.config` directory.
 5. Open your terminal and run:
