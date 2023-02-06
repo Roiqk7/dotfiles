@@ -123,8 +123,16 @@ Tip: I recommend setting up aliases for quick navigation to your work directory.
 # [Tmux](https://github.com/tmux/tmux) 
 ## Steps:
 1. [Install](#tmux_installation) tmux.
-2. Place the `.tmux.conf` file in your root directory (`~/`).
-3. Open a terminal and run the code bellow to reload the configuration file.
+2. Clone this repository (if you haven't done so already)
+```
+gc https://github.com/CharlesChiuGit/nvimdots.lua.git
+```
+or if you don't use my aliases then by running:
+```
+git clone https://github.com/CharlesChiuGit/nvimdots.lua.git
+```
+3. Rename the `_tmux.conf` to `.tmux.conf` and put it in your root directory (`~/`).
+4. Open a terminal and run the code bellow to reload the configuration file.
 ```
 tmux source ~/.tmux.conf
 ``` 
@@ -203,12 +211,29 @@ For these commands to work, you need to have my [zsh](#zsh) configuration and ha
 ```
 bi neovim
 ``` 
-
-2. Install plugin manager [Packer](https://github.com/wbthomason/packer.nvim#quickstart) on Unix or Linux using this:
+2. Install plugin manager [Packer](https://github.com/wbthomason/packer.nvim#quickstart) on MacOS or Linux using this:
 ```
-git clone --depth 1 https://github.com/wbthomason/packer.nvim\
+gc https://github.com/wbthomason/packer.nvim\
  ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 ```
+3. Clone this repository (if you haven't done so already)
+```
+gc https://github.com/CharlesChiuGit/nvimdots.lua.git
+```
+or if you don't use my aliases then by running:
+```
+git clone https://github.com/CharlesChiuGit/nvimdots.lua.git
+```
+4. Go to `downloads/_config` and then move the `nvim` to your `~/.config` directory.
+5. Open your terminal and run:
+```
+n
+```
+or if you do not use my aliases then do:
+```
+nvim
+```
+6. Now you will see lot of errors. Simply click though them and then type `:PackerSync`. This will update your neovim. Then type `:q` to leave and reopen neovim. May be neccesary to again type `:PackerSync` and also wait for other plugins to install what they need so do not close neovim right away.
 
 ## Installation <a name="nvim_installation"></a>
 See [this](hhttps://github.com/neovim/neovim/wiki/Installing-Neovim#macos--os-x) for information on how to install and setup nvim for MacOS and other platforms. 
@@ -354,6 +379,3 @@ then go into a terminal and enter this piece of code:
 ulimit -n 10240
 ``` 
 Note that this is not a permanent solution. It will increase the maximum number of files just for the current session.
-
-# TODO
-* Proper install guide for nvim
