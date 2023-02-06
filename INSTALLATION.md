@@ -4,6 +4,7 @@
 * [Prerequisites+Zsh](#Prerequisites+Zsh)
 * [Tmux](#Tmux)
 * [Neovim](#Neovim)
+* [Troubleshooting](#Troubleshooting)
 
 # Prerequisites+Zsh
 1. Open terminal
@@ -150,3 +151,18 @@ gc https://github.com/wbthomason/packer.nvim\
 n
 ```
 5. Now you will see a lot of errors. Simply click though them and then type `:PackerSync`. This will update your neovim. Then type `:q` to leave and reopen neovim. May be neccesary to again type `:PackerSync` and also wait for other plugins to install what they need so do not close neovim right away.
+
+# Troubleshooting
+
+## Too many files open
+If you get this error message after running 
+```
+:PackerSync
+``` 
+then go into a terminal and enter this piece of code: 
+```
+ulimit -n 10240
+``` 
+Note that this is not a permanent solution. It will increase the maximum number of files just for the current session.
+
+# Thanks for installing my dotfiles!
