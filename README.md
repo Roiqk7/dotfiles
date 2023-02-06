@@ -194,15 +194,15 @@ For these commands to work, you need to have my [zsh](#zsh) configuration and ha
 ## Structure
 ```
 📂  ~/.config/nvim/
-   └──── 📂  lua/
-   │  └──── 📂  editor/
-   │  └──── 📂  mapping/
-   │  └──── 📂  plugrc/
-   │  │  └──── 📂  lsp/
-   │  └──── 📂  ui/
-   │  ├──── plugins.lua
-   │  └──── utils.lua
-   └──── init.lua
+   └────  📂  lua/
+   │  └────  📂  editor/
+   │  └────  📂  mapping/
+   │  └────  📂  plugrc/
+   │  │  └────  📂  lsp/
+   │  └────  📂  ui/
+   │  ├────  📄  plugins.lua
+   │  └────  📄  utils.lua
+   └────  📄  init.lua
 ```
 
 `editor` contains the neovim editor configuration.
