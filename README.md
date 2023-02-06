@@ -46,7 +46,9 @@ Alternatively, go through the plugins one by one and follow their installation g
 **Note2:** [Brew](https://brew.sh) is MacOS specific.
 
 # [Zsh](https://zsh.sourceforge.io)
+
 ![Zsh](https://github.com/Roiqk7/dotfiles/blob/main/assets/Zsh.png?raw=true)
+
 If you followed [prerequisites](#Prerequisites) section you should have most of the stuff done already. Now we just take it one step further. For a powerful zsh setup, read [this article](https://dev.to/abdfnx/oh-my-zsh-powerlevel10k-cool-terminal-1no0) and then check my `.zshrc` file.
 
 ## Plugins <a name="zsh_plugins"></a>
@@ -125,6 +127,9 @@ Tip: I recommend setting up aliases for quick navigation to your work directory.
 | `nonu` | `npm outdated && npm update` | Maintain packages |
  
 # [Tmux](https://github.com/tmux/tmux) 
+
+![Tmux](https://github.com/Roiqk7/dotfiles/blob/main/assets/Tmux.png?raw=true)
+
 ## Steps:
 1. [Install](#tmux_installation) tmux.
 2. Clone this repository (if you haven't done so already)
@@ -183,6 +188,8 @@ For these commands to work, you need to have my [zsh](#zsh) configuration and ha
 | `<prefix>m` | Maximize/Minimize pane |
  
 # [Neovim](https://neovim.io)
+
+![Editor](https://github.com/Roiqk7/dotfiles/blob/main/assets/Editor.png?raw=true)
 
 ## Structure
 ```
@@ -374,6 +381,7 @@ Here are some resources you can use to master this configuration. Note that all 
 ![Tree](https://github.com/Roiqk7/dotfiles/blob/main/assets/Tree.png?raw=true)
 ![Editor](https://github.com/Roiqk7/dotfiles/blob/main/assets/Editor.png?raw=true)
 ![Telescope](https://github.com/Roiqk7/dotfiles/blob/main/assets/Telescope.png?raw=true)
+![Tmux](https://github.com/Roiqk7/dotfiles/blob/main/assets/Tmux.png?raw=true)
 
 # Troubleshooting
 
