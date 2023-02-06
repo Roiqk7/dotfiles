@@ -101,7 +101,7 @@ And open it in your finder by running
 ```
 open .
 ```
-Then go to `dotfiles` folder on your desktop and you will see `_zshrc` file. Rename it to `.zshrc` and then move it to your finder window with home directory.
+Then go to `dotfiles` folder on your desktop. Get into `src` and you will see `_zshrc` file. Rename it to `.zshrc` and then move it to your finder window with home directory.
 15. Now in your terminal move to `.config` directory by running
 ```
 cd .config
@@ -110,7 +110,7 @@ and open it with
 ```
 open .
 ```
-Then go to `dotfiles` into `_config` directory and grab `aliases.zsh` file and move it to your `.config` directory. This will give you access to the aliases.
+Then go to `dotfiles`, then to `src` into `_config` directory and grab `aliases.zsh` file and move it to your `.config` directory. This will give you access to the aliases.
 16. Source `.zshrc`
 ```
 source ~/.zshrc
@@ -132,7 +132,7 @@ then open the home directory
 ```
 .
 ```
-4. Go to `dotfiles` and rename `_tmux.conf` to `.tmux.conf`. Then move it to your home directory.
+4. Go to `dotfiles`, then to `src` and rename `_tmux.conf` to `.tmux.conf`. Then move it to your home directory.
 5. Run this to resource tmux
 ```
 tmux source ~/.tmux.conf
@@ -149,7 +149,7 @@ bi neovim
 gc https://github.com/wbthomason/packer.nvim\
  ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 ```
-3. Go to `dotfiles` inside `_config` and then move the `nvim` to your `~/.config` directory.
+3. Go to `dotfiles`, then to `src/_config` and then move the `nvim` to your `~/.config` directory.
 4. Open your terminal and run:
 ```
 n
