@@ -117,6 +117,14 @@ source ~/.zshrc
 ```
 17. Open and close your terminal. Agree to install recommended fonts and follow the tutorial
 That's it. Now your terminal should be ready to go. That was the hard part from now on it will be quick. Also since we setup the aliases from now on I will use them so you get familiar with them.
+18. Install Ruby by running
+```
+bi ruby
+```
+19. Install [colorls](https://github.com/athityakumar/colorls) with
+```
+gem install colorls
+```
 
 # Tmux
 **Note:** I am using aliases from `aliases.zsh` file and am assuming you already cloned this repository.
