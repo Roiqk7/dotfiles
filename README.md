@@ -1,6 +1,6 @@
 ![Startup](https://github.com/Roiqk7/dotfiles/blob/main/.github/assets/Startup.png?raw=true)
 
-**If you don't care about bs and want straight to the bussiness [then click here.](https://github.com/Roiqk7/dotfiles/blob/main/INSTALLATION.md)**
+**If you don't care about bs and want straight to the bussiness [then click here.](https://github.com/Roiqk7/dotfiles/blob/main/.github/INSTALLATION.md)**
 
 ## Table of Contents
 * [Introduction](#Introduction)
