@@ -73,7 +73,7 @@ startup.setup({
             { " Recent Files", "Telescope oldfiles", "<leader>of" },
             { " Display TODOs", "TodoQuickFix", "<leader>dtd" },
             { " Find File", "Telescope find_files", "<leader>ff" },
-            { " Find Word", "Telescope live_grep", "<leader>fs" },
+            { "󰇚 Update", "PackerSync", "<leader>ps" },
             { " Colorschemes", "Telescope colorscheme", "<leader>cs" },
         },
         highlight = "String",
