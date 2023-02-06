@@ -24,7 +24,7 @@
 * [Troubleshooting](#Troubleshooting)
 
 # Introduction
-This configuration is aimed at C/C++/Rust/Lua development in Neovim on MacOS. That being said, the purpose of this repository is to help you get started. You are encouraged to change it to your liking, and I designed it with that in mind.
+This configuration is aimed at **C/C++/Rust/Lua** development in **Neovim** on **MacOS**. That being said, the purpose of this repository is to help you get started. You are encouraged to change it to your liking, and I designed it with that in mind.
 
 **Note:** The `_` in the file/directory names represents `.`
 
