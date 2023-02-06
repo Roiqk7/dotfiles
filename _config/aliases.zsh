@@ -23,13 +23,14 @@ alias utree="colorls --tree=10 --sd --dark"
 alias detail="colorls -lA --sd --dark"
 
 # shortcuts
+alias desk="cd ~/Desktop"
 alias .zshrc="nvim ~/.zshrc"
 alias aliases="nvim ~/.config/aliases.zsh"
 alias neovim="nvim ~/.config/nvim/init.lua"
 alias .tmux.conf="nvim ~/.tmux.conf"
 alias .p10k="nvim ~/.p10k.zsh"
 alias .config="cd ~/.config"
-alias work=""
+alias work="cd ~/Desktop/Programming/C:C++/"
 
 # brew
 alias bu="brew upgrade"
@@ -39,6 +40,7 @@ alias bl="brew list"
 
 # git
 alias gc="git clone --recursive"
+alias repo="gc https://github.com/Roiqk7/dotfiles.git `~/Desktop`"
 
 # tmex
 alias te="tmex -l"
