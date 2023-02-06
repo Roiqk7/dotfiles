@@ -184,6 +184,12 @@ return packer.startup(function(use)
 
     -- Rust
     use("simrat39/rust-tools.nvim")
+        
+    -- Markdown
+    use({
+        "ellisonleao/glow.nvim",
+        config = function() require("glow").setup() end
+    })
 
     -- ============================================================================ --
     -- ===                                LSP                                   === --
