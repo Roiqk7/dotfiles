@@ -7,12 +7,12 @@
 * [Troubleshooting](#Troubleshooting)
 
 # Prerequisites+Zsh
-1. Open terminal
+1. Open the terminal
 2. Make sure you have command-line tools by executing
 ```
 xcode-select -p
 ```
-If you get path like `/Library/Developer/CommandLineTools` then you are good. Otherwise
+If you get a path like `/Library/Developer/CommandLineTools` then you are good. Otherwise
 ```
 xcode-select --install
 ```
@@ -43,7 +43,7 @@ drwxrwxr-x  52 gmeece  admin  1664 Sep  4 17:07 /usr/local/share
 
 [oh-my-zsh] For safety, we will not load completions from these directories until
 [oh-my-zsh] you fix their permissions and ownership and restart zsh.
-[oh-my-zsh] See the above list for directories with group or other writability.
+[oh-my-zsh] See the above list for directories with group or other writeability.
 
 [oh-my-zsh] To fix your permissions you can do so by disabling
 [oh-my-zsh] the write permission of "group" and "others" and making sure that the
@@ -88,7 +88,7 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
 ```
 cd Desktop
 ```
-and then download this reository with
+and then download this repository with
 ```
 git clone https://github.com/Roiqk7/dotfiles.git
 ```
@@ -102,7 +102,7 @@ And open it in your finder by running
 open .
 ```
 Then go to `dotfiles` folder on your desktop. Get into `src` and you will see `_zshrc` file. Rename it to `.zshrc` and then move it to your finder window with home directory.
-15. Now in your terminal move to `.config` directory by running
+15. Now in your terminal, move to `.config` directory by running
 ```
 cd .config
 ```
@@ -116,7 +116,7 @@ Then go to `dotfiles`, then to `src` into `_config` directory and grab `aliases.
 source ~/.zshrc
 ```
 17. Open and close your terminal. Agree to install recommended fonts and follow the tutorial
-That's it. Now your terminal should be ready to go. That was the hard part from now on it will be quick. Also since we setup the aliases from now on I will use them so you get familiar with them.
+That's it. Now your terminal should be ready to go. That was the hard; part from now on, it will be quick. Also, since we set up the aliases, from now on I will use them so you get familiar with them.
 18. Install Ruby by running
 ```
 bi ruby
@@ -162,7 +162,7 @@ gc https://github.com/wbthomason/packer.nvim\
 ```
 n
 ```
-5. Now you will see a lot of errors. Simply click though them and then type `:PackerSync`. This will update your neovim. Then type `:q` to leave and reopen neovim. May be neccesary to again type `:PackerSync` and also wait for other plugins to install what they need so do not close neovim right away.
+5. Now you will see a lot of errors. Simply click though them and then type `:PackerSync`. This will update your neovim. Then type `:q` to leave and reopen neovim. It may be necessary to again type `:PackerSync` and also wait for other plugins to install what they need so do not close neovim right away.
 
 # Thanks for installing my dotfiles!
 Now I highly recommend reading [this](https://github.com/Roiqk7/dotfiles/blob/main/README.md) for more information.
