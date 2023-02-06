@@ -1,4 +1,4 @@
-![Startup](https://github.com/Roiqk7/dotfiles/blob/main/assets/Startup.png?raw=true)
+![Startup](https://github.com/Roiqk7/dotfiles/blob/main/.github/assets/Startup.png?raw=true)
 
 **If you don't care about bs and want straight to the bussiness [then click here.](https://github.com/Roiqk7/dotfiles/blob/main/INSTALLATION.md)**
 
@@ -47,7 +47,7 @@ Alternatively, go through the plugins one by one and follow their installation g
 
 # [Zsh](https://zsh.sourceforge.io)
 
-![Zsh](https://github.com/Roiqk7/dotfiles/blob/main/assets/Zsh.png?raw=true)
+![Zsh](https://github.com/Roiqk7/dotfiles/blob/main/.github/assets/Zsh.png?raw=true)
 
 If you followed [prerequisites](#Prerequisites) section you should have most of the stuff done already. Now we just take it one step further. For a powerful zsh setup, read [this article](https://dev.to/abdfnx/oh-my-zsh-powerlevel10k-cool-terminal-1no0) and then check my `.zshrc` file.
 
@@ -128,7 +128,7 @@ Tip: I recommend setting up aliases for quick navigation to your work directory.
  
 # [Tmux](https://github.com/tmux/tmux) 
 
-![Tmux](https://github.com/Roiqk7/dotfiles/blob/main/assets/Tmux.png?raw=true)
+![Tmux](https://github.com/Roiqk7/dotfiles/blob/main/.github/assets/Tmux.png?raw=true)
 
 ## Steps:
 1. [Install](#tmux_installation) tmux.
@@ -189,7 +189,7 @@ For these commands to work, you need to have my [zsh](#zsh) configuration and ha
  
 # [Neovim](https://neovim.io)
 
-![Editor](https://github.com/Roiqk7/dotfiles/blob/main/assets/Editor.png?raw=true)
+![Editor](https://github.com/Roiqk7/dotfiles/blob/main/.github/assets/Editor.png?raw=true)
 
 ## Structure
 ```
@@ -377,12 +377,12 @@ Here are some resources you can use to master this configuration. Note that all 
 
 # Gallery
 
-![Startup](https://github.com/Roiqk7/dotfiles/blob/main/assets/Startup.png?raw=true)
-![Zsh](https://github.com/Roiqk7/dotfiles/blob/main/assets/Zsh.png?raw=true)
-![Tree](https://github.com/Roiqk7/dotfiles/blob/main/assets/Tree.png?raw=true)
-![Editor](https://github.com/Roiqk7/dotfiles/blob/main/assets/Editor.png?raw=true)
-![Telescope](https://github.com/Roiqk7/dotfiles/blob/main/assets/Telescope.png?raw=true)
-![Tmux](https://github.com/Roiqk7/dotfiles/blob/main/assets/Tmux.png?raw=true)
+![Startup](https://github.com/Roiqk7/dotfiles/blob/main/.github/assets/Startup.png?raw=true)
+![Zsh](https://github.com/Roiqk7/dotfiles/blob/main/.github/assets/Zsh.png?raw=true)
+![Tree](https://github.com/Roiqk7/dotfiles/blob/main/.github/assets/Tree.png?raw=true)
+![Editor](https://github.com/Roiqk7/dotfiles/blob/main/.github/assets/Editor.png?raw=true)
+![Telescope](https://github.com/Roiqk7/dotfiles/blob/main/.github/assets/Telescope.png?raw=true)
+![Tmux](https://github.com/Roiqk7/dotfiles/blob/main/.github/assets/Tmux.png?raw=true)
 
 # Troubleshooting
 
