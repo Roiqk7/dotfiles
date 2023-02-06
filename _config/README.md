@@ -130,6 +130,7 @@ With over 60 plugins, the average load time **under 9 milliseconds** *(measured 
   | [Clangd Extensions](https://github.com/p00f/clangd_extensions.nvim) | Better C/C++ experience |
   | [Neodev](https://github.com/folke/neodev.nvim) | Better Lua experience |
   | [Rust Tools](https://github.com/simrat39/rust-tools.nvim) | Better Rust experience |
+  | [Glow](https://github.com/ellisonleao/glow.nvim) | Markdown preview |
   | **LSP** | Lsp related |
   | [LSP Setup](https://github.com/junnplus/lsp-setup.nvim) | Wrapper for [LSP Config](https://github.com/neovim/nvim-lspconfig) and [Mason-lspconfig](https://github.com/williamboman/mason-lspconfig.nvim) |
   | [LSP Config](https://github.com/neovim/nvim-lspconfig) | [Configs](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md) for the [neovim LSP client](https://neovim.io/doc/user/lsp.html) |
