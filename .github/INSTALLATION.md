@@ -167,7 +167,7 @@ n
 ```
 u
 ``` 
-which will update everythig neccesary.
+which will update everything neccesary.
 
 # Thanks for installing my dotfiles!
 Now I highly recommend reading [this](https://github.com/Roiqk7/dotfiles/blob/main/README.md) for more information.
