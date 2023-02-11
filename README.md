@@ -360,6 +360,7 @@ With over 60 plugins, the average load time is **under 9 milliseconds** *(measur
 | `gd` | Normal, Insert | Go to definition |
 | `[d` `]d` | Normal, Insert | Move between diagnostics |
 | `[e` `]e` | Normal, Insert | Jump between errors |
+| `<leader>dd` | Normal | Display diagnostics |
 | `hd` | Normal, Insert | Get hover doc with useful information |
 | `<leader>bd` | Normal | Show buffer diagnostics |
 | `<leader>gr` | Normal | Get references |
