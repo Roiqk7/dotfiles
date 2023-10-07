@@ -187,7 +187,8 @@ For these commands to work, you need to have my [zsh](#zsh) configuration and ha
 | `<prefix>-` | Vertical split |
 | `<prefix>m` | Maximize/Minimize pane |
  
-# [Neovim - NOT WORKING!](https://neovim.io)
+# [Neovim](https://neovim.io)
+# Not working!
 
 ![Editor](https://github.com/Roiqk7/dotfiles/blob/main/.github/assets/Editor.png?raw=true)
 
